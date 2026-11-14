@@ -1,14 +1,42 @@
 # NeuroTwin AI — MVP v0: Neuron Outcome Atlas
 
-**Version:** 0.4 — 11 November 2026
-**Status:** Redesign. The first build (paper pipeline, core schema core-0.4.0, read-only web app, 165 hand-extracted measurements) is done and is described in §2. Everything in §3–§9 marked **planned** is not built yet.
-**Related:** [data dictionary](./DATA_STRATEGY.md).
+**Version:** 0.5 — 14 November 2026
+**Status:** Redesign. The first build (paper pipeline, core schema core-0.4.0, read-only web app, 165 hand-extracted measurements) is done and is described in §2. Everything in §3–§9 marked **planned** is not built yet. This version aligns the outcome names, interventions, users and timeline with the Apollo pitch deck (November 2026).
+**Related:** [data dictionary](./DATA_STRATEGY.md) · [project page](https://saharap.github.io/neurotwin-ai/) · [pitch deck (PDF)](https://drive.google.com/file/d/1_vWow-CKiTYg-4b31m6fYOt1xeQMsxxy/view?usp=sharing).
 
 ## 0. Project subject
 
-NeuroTwin AI is a neuroscience project. Its subject is **how neurons change under different substances and different environmental settings**: medicines, supplements and other compounds, and conditions such as exercise, sleep, meditation and surroundings. It records benefits, harms and null results alike, as set out in the business proposal.
+NeuroTwin AI is a neuroscience project. Its subject is **how substances, lifestyle and environment change the brain, with every number traced to its source**. Interventions include substances and medicines, exercise, sleep, meditation, environment, and art and creative activity. Benefits, harms and null results are recorded alike.
 
-**Outcome focus.** The outcomes are changes in neurons themselves: **neurogenesis** (new neurons), **spinogenesis** (new dendritic spines), **dendritogenesis** (dendrite growth and branching), **neuroplasticity** more broadly, and **neurodegenerative features** (loss of neurons, synapses or dendrites). These are kept as separate outcomes and never merged into one score.
+**Outcome focus: neuroplasticity, one outcome at a time.** The outcomes are changes in neurons themselves:
+
+- **Neurogenesis:** new neurons.
+- **Spinogenesis:** new dendritic spines.
+- **Dendritogenesis:** dendrite growth and branching.
+- **Synaptic change:** gain or loss of synapses and synaptic proteins.
+- **Neurodegeneration:** loss of neurons, synapses or dendrites. This is the loss side.
+
+The first four are forms of neuroplasticity. The five are kept as separate outcomes and never merged into one score.
+
+**Why it matters.** A comparable, source-linked record of these changes supports research in:
+
+- drug discovery
+- mental health disorders
+- Alzheimer's and other neurodegenerative diseases
+- autoimmune disease affecting the brain, such as multiple sclerosis
+- healthy brain ageing and longevity
+- cognitive function
+
+The project starts narrow, with preclinical neuron outcomes, and widens as the evidence allows. It is a research tool: it informs research and makes no treatment claims.
+
+**The problem.** Neurons cannot be watched changing inside a living human brain. Its cells cannot be sampled, perturbed or imaged again and again, and MRI and EEG are only proxies. So neuron-level change is measured in two places:
+
+- animals, mainly mice and rats
+- cultured cells, including human stem-cell-derived neurons and organoids
+
+That evidence is spread across thousands of papers, each with its own endpoint, dose and time point.
+
+**The insight.** The hard part is not reading papers. It is knowing whether two results measured the same thing. Two "spine density" findings often differ in species, cell type, dose, timing and method, and generic AI summaries hide that. Comparability is the problem the MVP is built to solve (§4).
 
 The project is **not** about one class of compound. Psilocybin, DMT and 5-MeO-DMT were only the first test corpus. Which interventions are collected is one file, [config/interventions.json](../config/interventions.json); no code names a compound.
 
@@ -30,7 +58,7 @@ The first build chose papers by substance and therapeutic area and extracted wha
 |---|---|
 | Corpus | 65 papers: 50 on the three compounds (47 read) and 15 on exercise (not read) |
 | Measurements | 165, from 32 papers; 15 papers had no measured outcomes in scope |
-| Neuron-level rows (neurogenesis, synaptic structure, cell survival and morphology) | 27 (16%), from 8 papers |
+| Neuron-level rows (neurogenesis, synaptic structure, cell survival and morphology) | 27 (16%), from 8 papers; 26 values are shown in the current atlas |
 | Behavioral or clinical rows | 86 (52%) |
 | Rows with a numeric value / a control value / an uncertainty | 72 / 36 / 29 |
 | Distinct endpoint keys | 115; only 8 are shared by two or more papers |
@@ -52,10 +80,16 @@ The redesign below keeps the working parts and changes what is collected and how
 
 The MVP is organised **by outcome, not by substance**.
 
-- **Five canonical outcomes:** adult neurogenesis, dendritic spine density, dendritic complexity, synaptic markers, and neuron survival or loss (see §4).
-- **Any intervention is the comparison axis:** the same outcome is shown under each intervention that has evidence for it.
+- **Five canonical outcomes:** neurogenesis, spinogenesis, dendritogenesis, synaptic change and neurodegeneration (see §0 and §4).
+- **Any intervention is the comparison axis:** the same outcome is shown under each intervention that has evidence for it. The atlas groups interventions into six classes: substances and medicines, exercise, sleep, meditation, environment, and art and creative activity. A class with no evidence yet is shown as a gap.
 - **Evidence:** preclinical only: cell cultures, animal studies, and human-derived cells and organoids. These outcomes cannot be measured directly in living people. Human imaging and clinical results become optional context, always labelled as proxies.
-- **Reference interventions:** besides the three compounds, include interventions with deep neuron-level literatures so that comparison is possible: exercise, environmental enrichment, an SSRI (fluoxetine), and chronic stress as a negative reference. Each is an entry in `config/interventions.json`.
+- **Reference interventions:** besides the three compounds, include interventions with deep neuron-level literatures so that comparison is possible:
+  - exercise
+  - environmental enrichment (environment class)
+  - an SSRI, fluoxetine (substances class)
+  - chronic stress, as a negative reference (environment class)
+
+  Each is an entry in `config/interventions.json`. Sleep, meditation, and art and creative activity are added once a screen shows enough neuron-level papers for them.
 - **Corpus size:** 60–80 primary papers.
 - **Out of scope for the atlas:** behavioral and clinical endpoints, therapeutic-area grouping, user uploads, prediction of any kind.
 
@@ -67,11 +101,11 @@ The list below is a **draft**. It must be reviewed by a neuroscientist before ex
 
 | Outcome | Draft endpoints |
 |---|---|
-| Adult neurogenesis | BrdU+ or EdU+ cells, Ki-67+ cells, DCX+ cells, surviving new neurons (BrdU+/NeuN+) |
-| Dendritic spine density | Spines per unit dendrite length, spine formation rate, spine elimination rate |
-| Dendritic complexity | Sholl intersections, branch number, total dendritic length, neurite length |
-| Synaptic markers | PSD-95, synaptophysin, SV2A, synapse counts |
-| Neuron survival or loss | Neuron counts (e.g. NeuN+, TH+), apoptosis markers (cleaved caspase-3, TUNEL), cell viability |
+| Neurogenesis (adult) | BrdU+ or EdU+ cells, Ki-67+ cells, DCX+ cells, surviving new neurons (BrdU+/NeuN+) |
+| Spinogenesis (dendritic spine density) | Spines per unit dendrite length, spine formation rate, spine elimination rate |
+| Dendritogenesis (dendritic complexity) | Sholl intersections, branch number, total dendritic length, neurite length |
+| Synaptic change (synaptic markers) | PSD-95, synaptophysin, SV2A, synapse counts |
+| Neurodegeneration (neuron survival or loss) | Neuron counts (e.g. NeuN+, TH+), apoptosis markers (cleaved caspase-3, TUNEL), cell viability |
 
 BDNF and TrkB signalling are recorded as context markers, not as one of the five outcomes.
 
@@ -120,7 +154,7 @@ Users browse, compare and export. They do not upload papers.
 
 | Screen | Content |
 |---|---|
-| **Atlas** | Outcome × intervention grid. Each cell shows the number of studies, the reported directions, the evidence levels, and gaps. |
+| **Atlas** | Outcome × intervention grid. Rows are the five outcomes and columns are the intervention classes. Each cell shows the number of studies, the reported directions (increase, decrease, no change, mixed), the evidence levels, and gaps shown as gaps. |
 | **Outcome page** | One row per study contrast: percent change against the study's own control, with its uncertainty where it can be computed. Filters for species, region, model state, dose and time. Every point opens its source quote. No pooled estimate and no fitted curve. |
 | **Study page** | The paper, its contrasts, their quotes, and CSV/JSON export with citations and limitations. |
 
@@ -167,22 +201,63 @@ The 165 rows stay in `data/evidence/evidence_rows.jsonl`. After the registry exi
 
 ## 13. Steps
 
-| # | Step | Status |
-|---|---|---|
-| 1 | Commit the first build | Done, 11 November 2026 |
-| 2 | Audit the existing 165 rows (100 fields, by a person) | Not started |
-| 3 | Draft the endpoint registry and have a neuroscientist review it | Draft in §4 |
-| 4 | Schema core-0.5.0 (§6) and migration of the 27 neuron-level rows | Not started |
-| 5 | Rebuild the corpus by outcome × intervention, screening before the cap | Not started |
-| 6 | Extract with two passes; read supplement tables | Not started |
-| 7 | Build the three screens | Not started |
-| 8 | Run the validation gates | Not started |
+The target months follow the three-month Apollo plan in the pitch deck:
+
+- **December: data you can trust.** Reviewed registry and a 60–80 paper neuron-level corpus.
+- **January: measured accuracy.** Two AI passes, supplement tables and a human audit with a published error rate.
+- **February: first users.** Atlas live for 3–5 design-partner labs.
+
+These are plans. They depend on data access and on recruiting a neuroscience reviewer.
+
+| # | Step | Target | Status |
+|---|---|---|---|
+| 1 | Commit the first build | — | Done, 11 November 2026 |
+| 2 | Audit the existing 165 rows (100 fields, by a person) | January | Not started |
+| 3 | Draft the endpoint registry and have a neuroscientist review it | December | Draft in §4 |
+| 4 | Schema core-0.5.0 (§6) and migration of the 27 neuron-level rows | December | Not started |
+| 5 | Rebuild the corpus by outcome × intervention, screening before the cap | December | Not started |
+| 6 | Extract with two passes; read supplement tables | January | Not started |
+| 7 | Build the three screens | February | Not started |
+| 8 | Run the validation gates | February | Not started |
+| 9 | Recruit 3–5 design-partner labs and give them the atlas; start paid-pilot conversations | February | Not started |
 
 ## 14. Blockers and risks
 
 - **No measured accuracy yet.** Steps 2 and 6 address this. Until then, nothing should be presented as validated.
-- **No neuroscientist or user has reviewed the work.** The registry and the comparability rules need a domain expert (step 3), and the proposal's Phase 0 interviews have not happened.
+- **No neuroscientist or user has reviewed the work.** The registry and the comparability rules need a domain expert (step 3). So far there has been one conversation with a neuroscientist about the limits of experiments on the human brain. There are no design partners or users yet.
 - **Numbers in figures.** If supplement tables do not supply enough values, the numeric-completeness gate will fail and figure reading becomes necessary.
 - **Licensing.** 14 of the 65 current papers carry non-commercial licences, and OPEN Foundation's terms are non-commercial. Resolve both before any public or commercial release.
 - **Selection bias.** The corpus is what one search and OPEN's coverage reach, not a systematic review. The atlas must say so.
 - **Reading the drawings as simulation.** The neuron drawing illustrates one measured ratio. It must stay labelled as a schematic.
+
+## 15. Users and business model (from the pitch deck; hypotheses)
+
+**Who it is for:**
+
+| Group | Role | Need |
+|---|---|---|
+| Academic neuroscience labs | First users and design partners | Faster literature synthesis and reproducible comparisons |
+| Neurotherapeutics biotech and CROs | First buyers | Faster evidence review and better choices about which experiments to run next |
+| Nutrition, exercise, sleep and environment research | Later | The same atlas, extended to new intervention classes once the data supports it |
+
+First-buyer hypothesis: a small neuropharmacology or neuronal cell-assay team that runs recurring compound screens and needs rigorous cross-study comparison.
+
+**Business model.** Free to explore, paid to work with. All prices are hypotheses to test with design partners, and there is no revenue yet.
+
+| Offering | How it is sold | Price (hypothesis) |
+|---|---|---|
+| Public explorer | Free, limited | Free |
+| Team workspace | Monthly subscription | USD 99–499 per team per month |
+| Biotech or CRO pilot | Scoped paid pilot | Negotiated per workflow |
+| Enterprise | Annual contract with private data, API and audit logs | Annual license |
+
+No premium is charged for any prediction feature until it has been validated externally.
+
+**Competition.**
+
+- Literature AI (Elicit, Consensus) finds and summarises papers.
+- Neuron simulators (NEURON, NetPyNE, The Virtual Brain) model neurons and networks.
+- Reference atlases (NeuroMorpho.Org, Allen Brain Cell Atlas) hold morphology and cell-type data.
+- Virtual-cell AI predicts cell responses to perturbations.
+
+None of them turns intervention studies into comparable, source-linked neuron outcomes. NeuroTwin AI integrates with simulators and atlases rather than rebuilding them.
