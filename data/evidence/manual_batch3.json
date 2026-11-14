@@ -1,0 +1,1022 @@
+{
+ "PMC13449763": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Human neural stem cell study measuring proliferation, cell-cycle markers and neurotrophin expression after DMT.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Human NSC culture",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived neural stem cells",
+     "n": 5,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 1 µM",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": null,
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "EdU+ proliferating cell fraction",
+     "endpoint_normalized": "edu_proliferation",
+     "scale_level": "neurogenesis",
+     "assay_or_instrument": "EdU incorporation",
+     "time_value": 24,
+     "time_unit": "hours",
+     "time_origin": "DMT exposure",
+     "value": 23.8,
+     "value_unit": "% increase vs vehicle",
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": "percent_change",
+     "effect_size_value": 23.8,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.0032",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "reaching a maximum at 1 μM, corresponding to a 23.8% increase in proliferation over vehicle ( p = 0.0032, N = 5"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived neural stem cells",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "3 iPSC-derived NSC lines",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Human NSC culture",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived neural stem cells",
+     "n": 5,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 10 µM",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 10,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": null,
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "EdU+ proliferating cell fraction",
+     "endpoint_normalized": "edu_proliferation",
+     "scale_level": "neurogenesis",
+     "assay_or_instrument": "EdU incorporation",
+     "time_value": 24,
+     "time_unit": "hours",
+     "time_origin": "DMT exposure",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.0089",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Significant elevations persisted at 10 μM ( p = 0.0089"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived neural stem cells",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "3 iPSC-derived NSC lines",
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Human NSC culture",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived neural stem cells",
+     "n": 5,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 1 µM + BD-1063",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": null,
+     "comparator_label": "DMT 1 µM alone",
+     "comparator_type": "active"
+    },
+    "measurement": {
+     "endpoint_original": "EdU+ proliferating cell fraction",
+     "endpoint_normalized": "edu_proliferation",
+     "scale_level": "neurogenesis",
+     "assay_or_instrument": "EdU incorporation",
+     "time_value": 24,
+     "time_unit": "hours",
+     "time_origin": "DMT exposure",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.0456",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Co-treatment with the σ1R-antagonist BD-1063, instead, produced a small but significant increment in EdU + fraction compared to DMT alone ( p = 0.0456"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived neural stem cells",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "3 iPSC-derived NSC lines",
+     "probes": [
+      {
+       "agent": "BD-1063",
+       "target": "sigma-1 receptor",
+       "probe_type": "antagonist",
+       "dose_value": null,
+       "dose_unit": null,
+       "effect_on_response": "enhanced"
+      }
+     ]
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Human NSC culture",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived neural stem cells",
+     "n": 5,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 1 µM",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": null,
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Ki-67+ cycling cell fraction",
+     "endpoint_normalized": "ki67_fraction",
+     "scale_level": "neurogenesis",
+     "assay_or_instrument": "Ki-67 immunostaining",
+     "time_value": 24,
+     "time_unit": "hours",
+     "time_origin": "DMT exposure",
+     "value": 66.3,
+     "value_unit": "% increase vs vehicle",
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": "percent_change",
+     "effect_size_value": 66.3,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.0130",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "DMT 1 μM increased the Ki-67 + fraction by 66.3% at 24 h, consistent with elevated cycling ( p = 0.0130, N = 5)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived neural stem cells",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "3 iPSC-derived NSC lines",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Human NSC culture",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived neural stem cells",
+     "n": 3,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 1 µM",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": null,
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "BDNF protein (intracellular)",
+     "endpoint_normalized": "bdnf_protein",
+     "scale_level": "molecular",
+     "assay_or_instrument": "ELISA",
+     "time_value": 24,
+     "time_unit": "hours",
+     "time_origin": "DMT exposure",
+     "value": 57.45,
+     "value_unit": "pg/mg protein",
+     "control_value": 10.95,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.0122",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "a marked 5.2-fold increase in total intracellular BDNF after DMT compared with vehicle (57.45 ± 11.62 pg/mg vs 10.95 ± 2.14 pg/mg; p = 0.0122, N = 3)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived neural stem cells",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "3 iPSC-derived NSC lines",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Human NSC culture",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived neural stem cells",
+     "n": 4,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 1 µM",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": null,
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "BDNF mRNA",
+     "endpoint_normalized": "bdnf_mrna",
+     "scale_level": "molecular",
+     "assay_or_instrument": "RT-qPCR",
+     "time_value": 24,
+     "time_unit": "hours",
+     "time_origin": "DMT exposure",
+     "value": 4.6,
+     "value_unit": "fold vs vehicle",
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.0228",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "NGF and BDNF transcripts were upregulated by 9.5-fold (log 2 FC = 3.27 ± 0.14; p = 0.0018) and 4.6-fold (log 2 FC = 2.20 ± 0.39; p = 0.0228), respectively"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived neural stem cells",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "3 iPSC-derived NSC lines",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Human NSC culture",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived neural stem cells",
+     "n": 4,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 1 µM",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": null,
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "NGF mRNA",
+     "endpoint_normalized": "ngf_mrna",
+     "scale_level": "molecular",
+     "assay_or_instrument": "RT-qPCR",
+     "time_value": 24,
+     "time_unit": "hours",
+     "time_origin": "DMT exposure",
+     "value": 9.5,
+     "value_unit": "fold vs vehicle",
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.0018",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "NGF and BDNF transcripts were upregulated by 9.5-fold (log 2 FC = 3.27 ± 0.14; p = 0.0018)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived neural stem cells",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "3 iPSC-derived NSC lines",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Human NSC culture",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived neural stem cells",
+     "n": 4,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 1 µM",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": null,
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "NTF3 mRNA",
+     "endpoint_normalized": "ntf3_mrna",
+     "scale_level": "molecular",
+     "assay_or_instrument": "RT-qPCR",
+     "time_value": 24,
+     "time_unit": "hours",
+     "time_origin": "DMT exposure",
+     "value": 0.47,
+     "value_unit": "fold vs vehicle",
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.0099",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "NTF3 was markedly downregulated to 0.47-fold of vehicle (log 2 FC = – 1.08 ± 0.10; p = 0.0099, N = 4"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived neural stem cells",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "3 iPSC-derived NSC lines",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Human NSC culture",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived neural stem cells",
+     "n": 3,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 1 µM",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": null,
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Neural stem cell viability",
+     "endpoint_normalized": "nsc_viability",
+     "scale_level": "cellular",
+     "assay_or_instrument": "viability assay",
+     "time_value": 24,
+     "time_unit": "hours",
+     "time_origin": "DMT exposure",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": ">0.05",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "DMT did not affect NSC viability across concentrations or exposure paradigms"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived neural stem cells",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "3 iPSC-derived NSC lines",
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   }
+  ]
+ },
+ "PMC12923610": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Mouse chronic-stress study of one DMT dose on anhedonia, despair, cognition and hippocampal neurogenesis.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Chronic unpredictable mild stress model",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "male mice after 56 days of chronic mild stress",
+     "n": 8,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "DMT 30 mg/kg i.p.",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 30,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "single dose after stress protocol",
+     "comparator_label": "UCMS + saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Sucrose preference (anhedonia)",
+     "endpoint_normalized": "sucrose_preference",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "sucrose preference test",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "one-way ANOVA with Tukey post-hoc",
+     "p_value": "<0.0001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "All DMT-treated groups, including DMT alone, DMT under isoflurane, and DMT-d28, exhibited significantly higher sucrose preference compared to UCMS saline controls (all p < 0.0001)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 45-70",
+     "sex": "male",
+     "strain_or_line": "DCXCreERT2::TdTOMlox/lox on C57BL/6",
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Chronic unpredictable mild stress model",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "male mice after 56 days of chronic mild stress",
+     "n": 8,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "DMT 30 mg/kg i.p.",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 30,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "single dose after stress protocol",
+     "comparator_label": "UCMS + saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Immobility in tail suspension test",
+     "endpoint_normalized": "tst_immobility",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "tail suspension test",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "one-way ANOVA with Tukey post-hoc",
+     "p_value": "<0.0001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Remarkably, all tested treatments, i.e., DMT (p < 0.0001), DMT+Iso (p < 0.0001), fluoxetine (p = 0.0001), and DMT-d28 (p = 0.0002), effectively reduced immobility compared to UCMS saline controls"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 45-70",
+     "sex": "male",
+     "strain_or_line": "DCXCreERT2::TdTOMlox/lox on C57BL/6",
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Chronic unpredictable mild stress model",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "male mice after 56 days of chronic mild stress",
+     "n": 8,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "DMT 30 mg/kg i.p.",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 30,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "single dose after stress protocol",
+     "comparator_label": "UCMS + saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Pattern separation accuracy (hardest condition)",
+     "endpoint_normalized": "pattern_separation",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "DNMP radial arm maze",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "one-way ANOVA with Tukey post-hoc",
+     "p_value": "<0.0001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "animals treated with fluoxetine (p = 0.0007), DMT (p < 0.0001), and DMT+Iso (p = 0.0108) displayed significantly enhanced performance compared to the UCMS-saline group"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 45-70",
+     "sex": "male",
+     "strain_or_line": "DCXCreERT2::TdTOMlox/lox on C57BL/6",
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Chronic unpredictable mild stress model",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "male mice after 56 days of chronic mild stress",
+     "n": 8,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "DMT 30 mg/kg i.p.",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 30,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "single dose after stress protocol",
+     "comparator_label": "UCMS + saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Anxiety-like behavior (open field, elevated plus maze)",
+     "endpoint_normalized": "anxiety_like_behavior",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "open field and elevated plus maze",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "one-way ANOVA with Tukey post-hoc",
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "these results suggest that neither UCMS nor any of the pharmacological treatments tested induced measurable changes in anxiety-like behavior"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 45-70",
+     "sex": "male",
+     "strain_or_line": "DCXCreERT2::TdTOMlox/lox on C57BL/6",
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Chronic unpredictable mild stress model",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "male mice after 56 days of chronic mild stress",
+     "n": 8,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "DMT 30 mg/kg i.p.",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 30,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "single dose after stress protocol",
+     "comparator_label": "non-stressed controls",
+     "comparator_type": "untreated"
+    },
+    "measurement": {
+     "endpoint_original": "New granule cells (DCX-TOM+), ventral dentate gyrus",
+     "endpoint_normalized": "new_neurons_dg",
+     "scale_level": "neurogenesis",
+     "assay_or_instrument": "DCX-TOM cell counts",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "one-way ANOVA with Tukey post-hoc",
+     "p_value": "<0.0001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "both the DMT and DMTd28 groups exhibited roughly a two-fold increase in DCX-TOM+ cell counts compared to non-stressed control animals (Non-UCMS vs. DMT p < 0.0001"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "newborn granule cells (DCX-TOM+)",
+     "brain_region": "ventral dentate gyrus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 45-70",
+     "sex": "male",
+     "strain_or_line": "DCXCreERT2::TdTOMlox/lox on C57BL/6",
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Chronic unpredictable mild stress model",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "male mice after 56 days of chronic mild stress",
+     "n": 8,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "DMT 30 mg/kg i.p.",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 30,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "single dose after stress protocol",
+     "comparator_label": "UCMS + saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "New granule cells (DCX-TOM+), dorsal dentate gyrus",
+     "endpoint_normalized": "new_neurons_dg",
+     "scale_level": "neurogenesis",
+     "assay_or_instrument": "DCX-TOM cell counts",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "one-way ANOVA with Tukey post-hoc",
+     "p_value": "<0.0001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "all treatments led to markedly increased neurogenesis relative to UCMS-saline animals, including DMT (p < 0.0001)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "newborn granule cells (DCX-TOM+)",
+     "brain_region": "dorsal dentate gyrus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 45-70",
+     "sex": "male",
+     "strain_or_line": "DCXCreERT2::TdTOMlox/lox on C57BL/6",
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   }
+  ]
+ }
+}

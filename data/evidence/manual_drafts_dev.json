@@ -1,0 +1,1594 @@
+{
+ "PMC5640601": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Open-label trial reporting depression scores and pre/post fMRI blood flow and connectivity.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Open-label TRD trial, ASL subsample with ratings",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant major depression",
+     "n": 15,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg followed by 25 mg, one week apart",
+     "comparator_label": "pre-treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "QIDS-SR16 depression score",
+     "endpoint_normalized": "qids_sr16_depression_score",
+     "scale_level": "clinical",
+     "assay_or_instrument": "QIDS-SR16",
+     "time_value": 1,
+     "time_unit": "day",
+     "time_origin": "25 mg dose",
+     "value": 8.8,
+     "value_unit": "points",
+     "control_value": 16.9,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 6.2,
+     "uncertainty_high": null,
+     "statistical_test": "paired t-test",
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "it was 8.8 ± 6.2 (change = −8.1 ± 6, t = −5.2, p < 0.001)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "QIDS-SR16",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": "QIDS-SR16 reduction of 50% or more",
+     "blinding_integrity_assessed": "no",
+     "follow_up": "1 day",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label TRD trial, ASL subsample with ratings",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant major depression",
+     "n": 15,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg followed by 25 mg, one week apart",
+     "comparator_label": "pre-treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "QIDS-SR16 depression score",
+     "endpoint_normalized": "qids_sr16_depression_score",
+     "scale_level": "clinical",
+     "assay_or_instrument": "QIDS-SR16",
+     "time_value": 5,
+     "time_unit": "weeks",
+     "time_origin": "treatment",
+     "value": 10.9,
+     "value_unit": "points",
+     "control_value": 18.9,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 4.8,
+     "uncertainty_high": null,
+     "statistical_test": "paired t-test",
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "for 5-weeks post-treatment, it was 10.9 ± 4.8 (change = −8 ± 5.1, t = −6.3, p < 0.001)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "QIDS-SR16",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": "QIDS-SR16 reduction of 50% or more",
+     "blinding_integrity_assessed": "no",
+     "follow_up": "5 weeks",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label TRD trial, full sample",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant major depression",
+     "n": 19,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg followed by 25 mg, one week apart",
+     "comparator_label": "pre-treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "QIDS-SR16 change from baseline",
+     "endpoint_normalized": "qids_sr16_change_from_baseline",
+     "scale_level": "clinical",
+     "assay_or_instrument": "QIDS-SR16",
+     "time_value": 5,
+     "time_unit": "weeks",
+     "time_origin": "treatment",
+     "value": -9.2,
+     "value_unit": "points (change)",
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 5.6,
+     "uncertainty_high": null,
+     "statistical_test": "paired t-test",
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "47% met criteria for response (change = −9.2 ± 5.6, t = −6.7, p < 0.001)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "QIDS-SR16",
+     "higher_score_means": "worse",
+     "responder_rate": 0.47,
+     "remission_rate": null,
+     "response_definition": "QIDS-SR16 reduction of 50% or more",
+     "blinding_integrity_assessed": "no",
+     "follow_up": "5 weeks",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label TRD trial, full sample",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant major depression",
+     "n": 19,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg followed by 25 mg, one week apart",
+     "comparator_label": "pre-treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "QIDS-SR16 change from baseline",
+     "endpoint_normalized": "qids_sr16_change_from_baseline",
+     "scale_level": "clinical",
+     "assay_or_instrument": "QIDS-SR16",
+     "time_value": 1,
+     "time_unit": "week",
+     "time_origin": "treatment",
+     "value": -10.2,
+     "value_unit": "points (change)",
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 5.3,
+     "uncertainty_high": null,
+     "statistical_test": "paired t-test",
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "with 12 meeting criteria for response (change = −10.2 ± 5.3, t = −6.4, p < 0.001)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "QIDS-SR16",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": "QIDS-SR16 reduction of 50% or more",
+     "blinding_integrity_assessed": "no",
+     "follow_up": "1 week",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label TRD trial, ASL subsample",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant major depression",
+     "n": 16,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg followed by 25 mg, one week apart",
+     "comparator_label": "pre-treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Amygdala cerebral blood flow (ASL), post vs pre",
+     "endpoint_normalized": "amygdala_cbf",
+     "scale_level": "circuit",
+     "assay_or_instrument": "arterial spin labelling fMRI",
+     "time_value": 1,
+     "time_unit": "day",
+     "time_origin": "25 mg dose",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "correlation",
+     "effect_size_value": 0.59,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.01",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Only decreases in CBF were observed post treatment (vs pre)"
+     },
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "a significant relationship was found (r = 0.59; p = 0.01)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Open-label TRD trial, BOLD subsample",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant major depression",
+     "n": 15,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg followed by 25 mg, one week apart",
+     "comparator_label": "pre-treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "vmPFC to inferior-lateral parietal cortex resting-state connectivity",
+     "endpoint_normalized": "vmpfc_ilpc_rsfc",
+     "scale_level": "circuit",
+     "assay_or_instrument": "BOLD resting-state fMRI",
+     "time_value": 1,
+     "time_unit": "day",
+     "time_origin": "25 mg dose",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Increased vmPFC RSFC was observed with the bilateral inferior-lateral parietal cortex (ilPC) post-treatment."
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Open-label TRD trial, BOLD subsample",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant major depression",
+     "n": 15,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg followed by 25 mg, one week apart",
+     "comparator_label": "pre-treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Parahippocampus to prefrontal cortex resting-state connectivity",
+     "endpoint_normalized": "parahippocampus_pfc_rsfc",
+     "scale_level": "circuit",
+     "assay_or_instrument": "BOLD resting-state fMRI",
+     "time_value": 1,
+     "time_unit": "day",
+     "time_origin": "25 mg dose",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Decreased PH RSFC was observed with a PFC cluster incorporating the lateral and medial prefrontal cortex."
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Open-label TRD trial, BOLD subsample",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant major depression",
+     "n": 15,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg followed by 25 mg, one week apart",
+     "comparator_label": "pre-treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Amygdala resting-state connectivity",
+     "endpoint_normalized": "amygdala_rsfc",
+     "scale_level": "circuit",
+     "assay_or_instrument": "BOLD resting-state fMRI",
+     "time_value": 1,
+     "time_unit": "day",
+     "time_origin": "25 mg dose",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Amygdala RSFC was not significantly altered post treatment."
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Open-label TRD trial, BOLD subsample",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant major depression",
+     "n": 15,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg followed by 25 mg, one week apart",
+     "comparator_label": "pre-treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Default-mode network within-network connectivity (uncorrected)",
+     "endpoint_normalized": "dmn_within_rsfc",
+     "scale_level": "circuit",
+     "assay_or_instrument": "BOLD resting-state fMRI",
+     "time_value": 1,
+     "time_unit": "day",
+     "time_origin": "25 mg dose",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "t-test, did not survive Bonferroni correction",
+     "p_value": "0.018",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "revealed increased default-mode network (DMN) (t = 2.7, p = 0.018)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   }
+  ]
+ },
+ "PMC5895707": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Hypothesis article proposing a mechanism; it reports no new measurements.",
+  "measurements": []
+ },
+ "PMC6617883": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Qualitative coding of self-reported microdosing benefits and challenges; no measured outcomes against a comparator.",
+  "measurements": []
+ },
+ "PMC6047302": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Open-label pilot reporting questionnaire scores before and after psilocybin with an untreated control group.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Open-label pilot, TRD patients",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant depression",
+     "n": 7,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg safety dose, then 25 mg one week later",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "NR-6 nature relatedness score",
+     "endpoint_normalized": "nr_6_nature_relatedness_score",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Nature Relatedness Scale (NR-6)",
+     "time_value": 1,
+     "time_unit": "week",
+     "time_origin": "dosing sessions",
+     "value": 4.14,
+     "value_unit": "points",
+     "control_value": 3.67,
+     "effect_direction": "increase",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 2.5,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 0.75,
+     "uncertainty_high": null,
+     "statistical_test": "paired t-test",
+     "p_value": "0.003",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Patients showed a significant increase in nature relatedness scores 1 week after psilocybin treatment ( M =4.14, SD =0.75) compared with baseline ( M =3.67, SD =1.00)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label pilot, TRD patients (7-12 month follow-up)",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant depression",
+     "n": 6,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg safety dose, then 25 mg one week later",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "NR-6 nature relatedness score",
+     "endpoint_normalized": "nr_6_nature_relatedness_score",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Nature Relatedness Scale (NR-6)",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": 4.12,
+     "value_unit": "points",
+     "control_value": 3.67,
+     "effect_direction": "increase",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 1.2,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 0.6,
+     "uncertainty_high": null,
+     "statistical_test": "paired t-test",
+     "p_value": "0.021",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "the significant change was sustained at the 7–12-month follow-up time-point ( M =4.12, SD =0.60; t (5)=−2.707, p =0.021"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "measurement.time_value",
+      "reason": "ambiguous"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Open-label pilot, untreated healthy controls",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "age-matched healthy adults, no psilocybin",
+     "n": 7,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Healthy controls, no drug",
+     "intervention_original": "not administered psilocybin",
+     "intervention_normalized": "none",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": null,
+     "regimen": null,
+     "comparator_label": "screening",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "NR-6 nature relatedness score",
+     "endpoint_normalized": "nr_6_nature_relatedness_score",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Nature Relatedness Scale (NR-6)",
+     "time_value": 1,
+     "time_unit": "week",
+     "time_origin": "screening",
+     "value": 4.02,
+     "value_unit": "points",
+     "control_value": 4.02,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 0.94,
+     "uncertainty_high": null,
+     "statistical_test": "paired t-test",
+     "p_value": "0.994",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Non-treated control subjects showed no difference between screening ( M =4.02, SD =0.79) and the first ( M =4.02, SD =0.94; t (6)=0.008, p= 0.994"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "not_applicable"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Open-label pilot, TRD patients",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant depression",
+     "n": 7,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg safety dose, then 25 mg one week later",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "PPQ-5 authoritarianism score",
+     "endpoint_normalized": "ppq_5_authoritarianism_score",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Political Perspective Questionnaire (PPQ-5)",
+     "time_value": 1,
+     "time_unit": "week",
+     "time_origin": "dosing sessions",
+     "value": 2.43,
+     "value_unit": "points",
+     "control_value": 2.89,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 0.8,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 0.73,
+     "uncertainty_high": null,
+     "statistical_test": "paired t-test",
+     "p_value": "0.039",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Patients showed a significant decrease in authoritarian political perspective 1 week after psilocybin treatment ( M =2.43, SD =0.73) relative to baseline ( M =2.89, SD =0.72)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label pilot, TRD patients (7-12 month follow-up)",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant depression",
+     "n": 6,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg safety dose, then 25 mg one week later",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "PPQ-5 authoritarianism score",
+     "endpoint_normalized": "ppq_5_authoritarianism_score",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Political Perspective Questionnaire (PPQ-5)",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": 2.27,
+     "value_unit": "points",
+     "control_value": 2.89,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 0.7,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 0.68,
+     "uncertainty_high": null,
+     "statistical_test": "paired t-test (trend level)",
+     "p_value": "0.065",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Decreases in authoritarianism were still evident 7–12 months post-dosing ( M =2.27, SD =0.68)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "measurement.time_value",
+      "reason": "ambiguous"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Open-label pilot, TRD patients",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant depression",
+     "n": 7,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg safety dose, then 25 mg one week later",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "QIDS depression score",
+     "endpoint_normalized": "qids_depression_score",
+     "scale_level": "clinical",
+     "assay_or_instrument": "QIDS",
+     "time_value": 1,
+     "time_unit": "week",
+     "time_origin": "dosing sessions",
+     "value": 12.29,
+     "value_unit": "points",
+     "control_value": 19.43,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 1.3,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 9.18,
+     "uncertainty_high": null,
+     "statistical_test": "Wilcoxon signed-rank",
+     "p_value": "0.025",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "patients showed a significant decrease in QIDS scores 1 week after the psilocybin sessions ( M =12.29, SD =9.18) compared with baseline ( M =19.43, SD =4.04)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "QIDS",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": "no",
+     "follow_up": "1 week",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label pilot, TRD patients (7-12 month follow-up)",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant depression",
+     "n": 6,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": null,
+     "regimen": "10 mg safety dose, then 25 mg one week later",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "QIDS depression score",
+     "endpoint_normalized": "qids_depression_score",
+     "scale_level": "clinical",
+     "assay_or_instrument": "QIDS",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": 13.0,
+     "value_unit": "points",
+     "control_value": 19.43,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 0.7,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 6.39,
+     "uncertainty_high": null,
+     "statistical_test": "Wilcoxon signed-rank",
+     "p_value": "0.038",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "The patients’ QIDS scores remained significantly decreased 7–12 months after psilocybin treatment ( M =13.00, SD =6.39)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "QIDS",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": "no",
+     "follow_up": "7-12 months",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "measurement.time_value",
+      "reason": "ambiguous"
+     }
+    ]
+   }
+  ]
+ },
+ "PMC6695371": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Observational study reporting questionnaire and task outcomes before and after one inhalation session.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Naturalistic observational study, 24 h assessment",
+     "design": "observational",
+     "species": "human",
+     "population_or_model": "adults inhaling toad secretion at retreats in Europe",
+     "n": 42,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Inhaled toad secretion containing 5-MeO-DMT",
+     "intervention_original": "vapor from dried toad secretion containing 5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "inhalation",
+     "regimen": "single inhalation session",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Satisfaction with life",
+     "endpoint_normalized": "satisfaction_with_life",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Satisfaction with Life Scale",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 0.29,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "linear mixed model contrast (Bonferroni)",
+     "p_value": "0.022",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "satisfaction with life significantly increased within 24 h following the inhalation of the vapor from dried toad secretion containing 5-MeO-DMT ( p = 0.022; Hedges’ g = 0.29)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "ambiguous"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Naturalistic observational study, 4-week follow-up",
+     "design": "observational",
+     "species": "human",
+     "population_or_model": "adults inhaling toad secretion at retreats in Europe",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Inhaled toad secretion containing 5-MeO-DMT",
+     "intervention_original": "vapor from dried toad secretion containing 5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "inhalation",
+     "regimen": "single inhalation session",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Satisfaction with life",
+     "endpoint_normalized": "satisfaction_with_life",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Satisfaction with Life Scale",
+     "time_value": 4,
+     "time_unit": "weeks",
+     "time_origin": "inhalation",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 0.41,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "linear mixed model contrast (Bonferroni)",
+     "p_value": "0.012",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "and persisted 4 weeks later ( p = 0.012; Hedges’ g = 0.41)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Naturalistic observational study, 24 h assessment",
+     "design": "observational",
+     "species": "human",
+     "population_or_model": "adults inhaling toad secretion at retreats in Europe",
+     "n": 42,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Inhaled toad secretion containing 5-MeO-DMT",
+     "intervention_original": "vapor from dried toad secretion containing 5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "inhalation",
+     "regimen": "single inhalation session",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "DASS-21 depression, anxiety and stress",
+     "endpoint_normalized": "dass_21_depression_anxiety_and_stress",
+     "scale_level": "clinical",
+     "assay_or_instrument": "DASS-21",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "linear mixed model contrast (Bonferroni)",
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "subjective ratings of depression, anxiety, and stress decreased within 24 h following the inhalation of the vapor from dried toad secretion containing 5-MeO-DMT, but failed to reach significance until 4 weeks later"
+     }
+    ],
+    "clinical": {
+     "scale_name": "DASS-21",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": null,
+     "follow_up": null,
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "ambiguous"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Naturalistic observational study, 4-week follow-up",
+     "design": "observational",
+     "species": "human",
+     "population_or_model": "adults inhaling toad secretion at retreats in Europe",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Inhaled toad secretion containing 5-MeO-DMT",
+     "intervention_original": "vapor from dried toad secretion containing 5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "inhalation",
+     "regimen": "single inhalation session",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "DASS-21 depression",
+     "endpoint_normalized": "dass_21_depression",
+     "scale_level": "clinical",
+     "assay_or_instrument": "DASS-21",
+     "time_value": 4,
+     "time_unit": "weeks",
+     "time_origin": "inhalation",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 0.79,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "linear mixed model contrast (Bonferroni)",
+     "p_value": "0.015",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "but failed to reach significance until 4 weeks later ( p = 0.015, Hedges’ g = 0.79; p < 0.001, Hedges’ g = 0.69; p = 0.003, Hedges’ g = 0.66, respectively)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "DASS-21",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": null,
+     "follow_up": "4 weeks",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Naturalistic observational study, 4-week follow-up",
+     "design": "observational",
+     "species": "human",
+     "population_or_model": "adults inhaling toad secretion at retreats in Europe",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Inhaled toad secretion containing 5-MeO-DMT",
+     "intervention_original": "vapor from dried toad secretion containing 5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "inhalation",
+     "regimen": "single inhalation session",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "DASS-21 anxiety",
+     "endpoint_normalized": "dass_21_anxiety",
+     "scale_level": "clinical",
+     "assay_or_instrument": "DASS-21",
+     "time_value": 4,
+     "time_unit": "weeks",
+     "time_origin": "inhalation",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 0.69,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "linear mixed model contrast (Bonferroni)",
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "but failed to reach significance until 4 weeks later ( p = 0.015, Hedges’ g = 0.79; p < 0.001, Hedges’ g = 0.69; p = 0.003, Hedges’ g = 0.66, respectively)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "DASS-21",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": null,
+     "follow_up": "4 weeks",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Naturalistic observational study, 4-week follow-up",
+     "design": "observational",
+     "species": "human",
+     "population_or_model": "adults inhaling toad secretion at retreats in Europe",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Inhaled toad secretion containing 5-MeO-DMT",
+     "intervention_original": "vapor from dried toad secretion containing 5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "inhalation",
+     "regimen": "single inhalation session",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "DASS-21 stress",
+     "endpoint_normalized": "dass_21_stress",
+     "scale_level": "clinical",
+     "assay_or_instrument": "DASS-21",
+     "time_value": 4,
+     "time_unit": "weeks",
+     "time_origin": "inhalation",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 0.66,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "linear mixed model contrast (Bonferroni)",
+     "p_value": "0.003",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "but failed to reach significance until 4 weeks later ( p = 0.015, Hedges’ g = 0.79; p < 0.001, Hedges’ g = 0.69; p = 0.003, Hedges’ g = 0.66, respectively)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "DASS-21",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": null,
+     "follow_up": "4 weeks",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Naturalistic observational study, 4-week follow-up",
+     "design": "observational",
+     "species": "human",
+     "population_or_model": "adults inhaling toad secretion at retreats in Europe",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Inhaled toad secretion containing 5-MeO-DMT",
+     "intervention_original": "vapor from dried toad secretion containing 5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "inhalation",
+     "regimen": "single inhalation session",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "FFMQ-15 non-judgment (mindfulness)",
+     "endpoint_normalized": "ffmq_15_non_judgment_mindfulness",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "FFMQ-15",
+     "time_value": 4,
+     "time_unit": "weeks",
+     "time_origin": "inhalation",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 0.64,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "linear mixed model contrast (Bonferroni)",
+     "p_value": "0.009",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Separate contrasts revealed improvements in non-judgment ( p = 0.009; Hedges’ g = 0.64)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Naturalistic observational study, 4-week follow-up",
+     "design": "observational",
+     "species": "human",
+     "population_or_model": "adults inhaling toad secretion at retreats in Europe",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Inhaled toad secretion containing 5-MeO-DMT",
+     "intervention_original": "vapor from dried toad secretion containing 5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "inhalation",
+     "regimen": "single inhalation session",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "BSI-18 depression",
+     "endpoint_normalized": "bsi_18_depression",
+     "scale_level": "clinical",
+     "assay_or_instrument": "Brief Symptom Inventory 18",
+     "time_value": 4,
+     "time_unit": "weeks",
+     "time_origin": "inhalation",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 0.65,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "linear mixed model contrast (Bonferroni)",
+     "p_value": "0.023",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "but failed to reach significance until 4 weeks later ( p = 0.023, Hedges’ g = 0.65; p = 0.009, Hedges’ g = 0.81; p = 0.011, Hedges’ g = 0.85, respectively)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "BSI-18",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": null,
+     "follow_up": "4 weeks",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Naturalistic observational study, 4-week follow-up",
+     "design": "observational",
+     "species": "human",
+     "population_or_model": "adults inhaling toad secretion at retreats in Europe",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Inhaled toad secretion containing 5-MeO-DMT",
+     "intervention_original": "vapor from dried toad secretion containing 5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "inhalation",
+     "regimen": "single inhalation session",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Convergent thinking (Picture Concept Task correct solutions)",
+     "endpoint_normalized": "convergent_thinking_picture_concept_task_correct_solutions",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Picture Concept Task",
+     "time_value": 4,
+     "time_unit": "weeks",
+     "time_origin": "inhalation",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 1.32,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "linear mixed model contrast (Bonferroni)",
+     "p_value": "0.002",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "and 4 weeks later ( p = 0.002; Hedges’ g = 1.32), as compared with baseline"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   }
+  ]
+ }
+}

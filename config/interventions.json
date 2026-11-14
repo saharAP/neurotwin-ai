@@ -1,0 +1,94 @@
+{
+  "_readme": "The interventions NeuroTwin collects evidence for. Add an entry to cover another substance, or a non-substance setting such as sleep, exercise or an environmental exposure. Entries are matched in order and each match is removed before the next entry is tried, so list a more specific name before a name it contains. Optional fields: `corpus_cap` reserves that many corpus places for the intervention on top of the general cap; `open_category` is the OPEN Foundation category id, when OPEN has one.",
+  "interventions": [
+    {
+      "name": "5-MeO-DMT",
+      "type": "substance",
+      "match": "5[-\\s]?meo-?dmt|5-methoxy-?\\s?n,\\s?n-dimethyltryptamine",
+      "search_terms": [
+        "\"5-MeO-DMT\""
+      ],
+      "open_category": 3149
+    },
+    {
+      "name": "DMT",
+      "type": "substance",
+      "match": "\\bdmt\\b(?![-\\s](?:analog|derived|like))|\\bn,\\s?n-dimethyltryptamine|\\bdimethyltryptamine",
+      "search_terms": [
+        "\"dimethyltryptamine\"",
+        "DMT"
+      ],
+      "open_category": 59,
+      "open_tag_also_covers": [
+        "5-MeO-DMT"
+      ]
+    },
+    {
+      "name": "Psilocybin",
+      "type": "substance",
+      "display": "Psilocybin / psilocin",
+      "members": [
+        "Psilocin"
+      ],
+      "match": "psilocybin|psilocin|magic mushroom",
+      "search_terms": [
+        "psilocybin",
+        "psilocin"
+      ],
+      "open_category": 95
+    },
+    {
+      "name": "Exercise",
+      "type": "exercise",
+      "match": "\\bexercis\\w*|physical activity|aerobic training|resistance training|treadmill|wheel[- ]running|running wheel",
+      "search_terms": [
+        "\"aerobic exercise\"",
+        "\"exercise training\"",
+        "\"physical exercise\"",
+        "\"treadmill exercise\"",
+        "\"wheel running\"",
+        "\"resistance training\""
+      ],
+      "corpus_cap": 15
+    }
+  ],
+  "outcome_terms": {
+    "abstract": [
+      "neuroplasticity",
+      "\"dendritic spine\"",
+      "\"spine density\"",
+      "neurogenesis",
+      "neurite",
+      "synaptogenesis",
+      "\"synaptic density\"",
+      "\"structural plasticity\"",
+      "BDNF",
+      "TrkB",
+      "dendrite",
+      "spinogenesis",
+      "dendritogenesis",
+      "\"dendritic arborization\"",
+      "\"neurite outgrowth\"",
+      "neurodegeneration",
+      "\"neuronal loss\"",
+      "\"neuronal death\"",
+      "\"synaptic loss\"",
+      "\"neuronal survival\""
+    ],
+    "title": [
+      "plasticity",
+      "neurogenesis",
+      "spine",
+      "neurite",
+      "synaptic",
+      "neuron",
+      "neurons",
+      "spinogenesis",
+      "dendritogenesis",
+      "dendritic",
+      "neurodegeneration",
+      "neurodegenerative"
+    ],
+    "_focus": "Neurogenesis, spinogenesis, dendritogenesis, neuroplasticity and neurodegenerative features of neurons."
+  }
+}

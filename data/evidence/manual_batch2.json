@@ -1,0 +1,42 @@
+{
+ "PMC4464176": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Theoretical article applying integrated information theory to the psychedelic state; no new measurements.",
+  "measurements": []
+ },
+ "PMC6137697": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Conceptual review linking meditation and psychedelics; no new measurements.",
+  "measurements": []
+ },
+ "PMC5584001": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Qualitative thematic analysis of online forum posts; no measured outcomes against a comparator.",
+  "measurements": []
+ },
+ "PMC4944667": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Pharmacokinetic modeling and simulation proposal for DMT infusion; no measured intervention outcomes.",
+  "measurements": []
+ },
+ "PMC7196827": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Computational whole-brain modeling of existing imaging data; reports model fits, not new measured outcomes.",
+  "measurements": []
+ },
+ "PMC7908919": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Description of a therapist training program; no measured outcomes.",
+  "measurements": []
+ },
+ "PMC5893695": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Mainly qualitative interview analysis of music in therapy; no measured outcomes against a comparator.",
+  "measurements": []
+ },
+ "PMC5891594": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Case narratives of four patients from a previously published trial; outcomes re-reported, not new.",
+  "measurements": []
+ }
+}

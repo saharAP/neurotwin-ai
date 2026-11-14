@@ -1,0 +1,3250 @@
+{
+ "PMC7830000": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Animal study measuring synaptic density (SV2A) and 5-HT2A receptor density after one psilocybin dose.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Awake pigs, single IV dose, post-mortem autoradiography",
+     "design": "animal_in_vivo",
+     "species": "pig",
+     "population_or_model": "female pigs, ~9 weeks old",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.08 mg/kg IV",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.08,
+     "dose_unit": "mg/kg",
+     "route": "intravenous",
+     "regimen": "single dose",
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "SV2A synaptic density",
+     "endpoint_normalized": "sv2a_density",
+     "scale_level": "synaptic_structural",
+     "assay_or_instrument": "[3H]UCB-J autoradiography",
+     "time_value": 1,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": 4.42,
+     "value_unit": "% difference vs saline",
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": "percent_change",
+     "effect_size_value": 4.42,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "group comparison, Holm-adjusted",
+     "p_value": "<0.0001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "psilocybin treatment was associated with 4.42% higher SV2A in the hippocampus ( p < 0.0001) one day after psilocybin injection"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "hippocampus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "approximately nine weeks",
+     "sex": "female",
+     "strain_or_line": "Danish slaughter pigs (Yorkshire x Duroc x Landrace)",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Awake pigs, single IV dose, post-mortem autoradiography",
+     "design": "animal_in_vivo",
+     "species": "pig",
+     "population_or_model": "female pigs, ~9 weeks old",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.08 mg/kg IV",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.08,
+     "dose_unit": "mg/kg",
+     "route": "intravenous",
+     "regimen": "single dose",
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "SV2A synaptic density",
+     "endpoint_normalized": "sv2a_density",
+     "scale_level": "synaptic_structural",
+     "assay_or_instrument": "[3H]UCB-J autoradiography",
+     "time_value": 7,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": 9.24,
+     "value_unit": "% difference vs saline",
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": "percent_change",
+     "effect_size_value": 9.24,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "group comparison, Holm-adjusted",
+     "p_value": "0.024",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "9.24% higher SV2A in the hippocampus ( p = 0.024) seven days after psilocybin"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "hippocampus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "approximately nine weeks",
+     "sex": "female",
+     "strain_or_line": "Danish slaughter pigs (Yorkshire x Duroc x Landrace)",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Awake pigs, single IV dose, post-mortem autoradiography",
+     "design": "animal_in_vivo",
+     "species": "pig",
+     "population_or_model": "female pigs, ~9 weeks old",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.08 mg/kg IV",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.08,
+     "dose_unit": "mg/kg",
+     "route": "intravenous",
+     "regimen": "single dose",
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "SV2A synaptic density",
+     "endpoint_normalized": "sv2a_density",
+     "scale_level": "synaptic_structural",
+     "assay_or_instrument": "[3H]UCB-J autoradiography",
+     "time_value": 1,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": 0.25,
+     "value_unit": "% difference vs saline",
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": "percent_change",
+     "effect_size_value": 0.25,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "group comparison, Holm-adjusted",
+     "p_value": "1",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "One day after psilocybin, there was no difference in PFC SV2A ( Figure 2 b and Table 1 , 0.25%, p = 1)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "prefrontal cortex",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "approximately nine weeks",
+     "sex": "female",
+     "strain_or_line": "Danish slaughter pigs (Yorkshire x Duroc x Landrace)",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Awake pigs, single IV dose, post-mortem autoradiography",
+     "design": "animal_in_vivo",
+     "species": "pig",
+     "population_or_model": "female pigs, ~9 weeks old",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.08 mg/kg IV",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.08,
+     "dose_unit": "mg/kg",
+     "route": "intravenous",
+     "regimen": "single dose",
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "SV2A synaptic density",
+     "endpoint_normalized": "sv2a_density",
+     "scale_level": "synaptic_structural",
+     "assay_or_instrument": "[3H]UCB-J autoradiography",
+     "time_value": 7,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": 6.1,
+     "value_unit": "% difference vs saline",
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": "percent_change",
+     "effect_size_value": 6.1,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "group comparison, Holm-adjusted",
+     "p_value": "<0.0001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "seven days after psilocybin administration there was 6.10% higher SV2A in the PFC ( p < 0.0001)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "prefrontal cortex",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "approximately nine weeks",
+     "sex": "female",
+     "strain_or_line": "Danish slaughter pigs (Yorkshire x Duroc x Landrace)",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Awake pigs, single IV dose, post-mortem autoradiography",
+     "design": "animal_in_vivo",
+     "species": "pig",
+     "population_or_model": "female pigs, ~9 weeks old",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.08 mg/kg IV",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.08,
+     "dose_unit": "mg/kg",
+     "route": "intravenous",
+     "regimen": "single dose",
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "5-HT2A receptor density (antagonist radioligand)",
+     "endpoint_normalized": "5ht2a_density_antagonist",
+     "scale_level": "molecular",
+     "assay_or_instrument": "[3H]MDL100907 autoradiography",
+     "time_value": 1,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": -29.6,
+     "value_unit": "% difference vs saline",
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "percent_change",
+     "effect_size_value": -29.6,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "group comparison, Holm-adjusted",
+     "p_value": "<0.0001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "hippocampal 5-HT 2A R density ( Figure 2 a and Table 1 ) was 29.60% lower ( p < 0.0001)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "hippocampus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "approximately nine weeks",
+     "sex": "female",
+     "strain_or_line": "Danish slaughter pigs (Yorkshire x Duroc x Landrace)",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Awake pigs, single IV dose, post-mortem autoradiography",
+     "design": "animal_in_vivo",
+     "species": "pig",
+     "population_or_model": "female pigs, ~9 weeks old",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.08 mg/kg IV",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.08,
+     "dose_unit": "mg/kg",
+     "route": "intravenous",
+     "regimen": "single dose",
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "5-HT2A receptor density (antagonist radioligand)",
+     "endpoint_normalized": "5ht2a_density_antagonist",
+     "scale_level": "molecular",
+     "assay_or_instrument": "[3H]MDL100907 autoradiography",
+     "time_value": 1,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": -15.21,
+     "value_unit": "% difference vs saline",
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": "percent_change",
+     "effect_size_value": -15.21,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "group comparison, Holm-adjusted",
+     "p_value": "0.162",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "PFC 5-HT 2A R density was similar (−15.21%, p = 0.162"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "prefrontal cortex",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "approximately nine weeks",
+     "sex": "female",
+     "strain_or_line": "Danish slaughter pigs (Yorkshire x Duroc x Landrace)",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Awake pigs, single IV dose, post-mortem autoradiography",
+     "design": "animal_in_vivo",
+     "species": "pig",
+     "population_or_model": "female pigs, ~9 weeks old",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.08 mg/kg IV",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.08,
+     "dose_unit": "mg/kg",
+     "route": "intravenous",
+     "regimen": "single dose",
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "5-HT2A receptor density (antagonist radioligand)",
+     "endpoint_normalized": "5ht2a_density_antagonist",
+     "scale_level": "molecular",
+     "assay_or_instrument": "[3H]MDL100907 autoradiography",
+     "time_value": 7,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": -3.58,
+     "value_unit": "% difference vs saline",
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": "percent_change",
+     "effect_size_value": -3.58,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "group comparison, Holm-adjusted",
+     "p_value": "1",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "[ 3 H]MDL100907 (psilocybin vs. saline) | −29.60% ( p < 0.0001) | −3.58% ( p = 1) | −15.21% ( p = 0.162) | +1.32% ( p = 1)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "hippocampus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "approximately nine weeks",
+     "sex": "female",
+     "strain_or_line": "Danish slaughter pigs (Yorkshire x Duroc x Landrace)",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Awake pigs, single IV dose, post-mortem autoradiography",
+     "design": "animal_in_vivo",
+     "species": "pig",
+     "population_or_model": "female pigs, ~9 weeks old",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.08 mg/kg IV",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.08,
+     "dose_unit": "mg/kg",
+     "route": "intravenous",
+     "regimen": "single dose",
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "5-HT2A receptor density (antagonist radioligand)",
+     "endpoint_normalized": "5ht2a_density_antagonist",
+     "scale_level": "molecular",
+     "assay_or_instrument": "[3H]MDL100907 autoradiography",
+     "time_value": 7,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": 1.32,
+     "value_unit": "% difference vs saline",
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": "percent_change",
+     "effect_size_value": 1.32,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "group comparison, Holm-adjusted",
+     "p_value": "1",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "[ 3 H]MDL100907 (psilocybin vs. saline) | −29.60% ( p < 0.0001) | −3.58% ( p = 1) | −15.21% ( p = 0.162) | +1.32% ( p = 1)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "prefrontal cortex",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "approximately nine weeks",
+     "sex": "female",
+     "strain_or_line": "Danish slaughter pigs (Yorkshire x Duroc x Landrace)",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Awake pigs, single IV dose, post-mortem autoradiography",
+     "design": "animal_in_vivo",
+     "species": "pig",
+     "population_or_model": "female pigs, ~9 weeks old",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.08 mg/kg IV",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.08,
+     "dose_unit": "mg/kg",
+     "route": "intravenous",
+     "regimen": "single dose",
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "5-HT2A receptor density (agonist radioligand)",
+     "endpoint_normalized": "5ht2a_density_agonist",
+     "scale_level": "molecular",
+     "assay_or_instrument": "[3H]Cimbi-36 autoradiography",
+     "time_value": 1,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": -43.39,
+     "value_unit": "% difference vs saline",
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "percent_change",
+     "effect_size_value": -43.39,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "group comparison, Holm-adjusted",
+     "p_value": "0.013",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "hippocampal 5-HT 2A R/5-HT 2C R density ( Figure 2 c and Table 1 ) was 43.39% lower ( p = 0.013)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "hippocampus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "approximately nine weeks",
+     "sex": "female",
+     "strain_or_line": "Danish slaughter pigs (Yorkshire x Duroc x Landrace)",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Awake pigs, single IV dose, post-mortem autoradiography",
+     "design": "animal_in_vivo",
+     "species": "pig",
+     "population_or_model": "female pigs, ~9 weeks old",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.08 mg/kg IV",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.08,
+     "dose_unit": "mg/kg",
+     "route": "intravenous",
+     "regimen": "single dose",
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "5-HT2A receptor density (agonist radioligand)",
+     "endpoint_normalized": "5ht2a_density_agonist",
+     "scale_level": "molecular",
+     "assay_or_instrument": "[3H]Cimbi-36 autoradiography",
+     "time_value": 1,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": -50.19,
+     "value_unit": "% difference vs saline",
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "percent_change",
+     "effect_size_value": -50.19,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "group comparison, Holm-adjusted",
+     "p_value": "<0.0001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "PFC 5-HT 2A R density ( Figure 2 d and Table 1 ) was 50.19% lower ( p < 0.0001)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "prefrontal cortex",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "approximately nine weeks",
+     "sex": "female",
+     "strain_or_line": "Danish slaughter pigs (Yorkshire x Duroc x Landrace)",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Awake pigs, single IV dose, post-mortem autoradiography",
+     "design": "animal_in_vivo",
+     "species": "pig",
+     "population_or_model": "female pigs, ~9 weeks old",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.08 mg/kg IV",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.08,
+     "dose_unit": "mg/kg",
+     "route": "intravenous",
+     "regimen": "single dose",
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "5-HT2A receptor density (agonist radioligand)",
+     "endpoint_normalized": "5ht2a_density_agonist",
+     "scale_level": "molecular",
+     "assay_or_instrument": "[3H]Cimbi-36 autoradiography",
+     "time_value": 7,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": 3.31,
+     "value_unit": "% difference vs saline",
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": "percent_change",
+     "effect_size_value": 3.31,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "group comparison, Holm-adjusted",
+     "p_value": "1",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "[ 3 H]Cimbi-36 (psilocybin vs. saline) | −43.39% ( p = 0.013) | +3.31% ( p = 1) | −50.19% ( p < 0.0001) | +2.23% ( p = 1)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "hippocampus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "approximately nine weeks",
+     "sex": "female",
+     "strain_or_line": "Danish slaughter pigs (Yorkshire x Duroc x Landrace)",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Awake pigs, single IV dose, post-mortem autoradiography",
+     "design": "animal_in_vivo",
+     "species": "pig",
+     "population_or_model": "female pigs, ~9 weeks old",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.08 mg/kg IV",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.08,
+     "dose_unit": "mg/kg",
+     "route": "intravenous",
+     "regimen": "single dose",
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "5-HT2A receptor density (agonist radioligand)",
+     "endpoint_normalized": "5ht2a_density_agonist",
+     "scale_level": "molecular",
+     "assay_or_instrument": "[3H]Cimbi-36 autoradiography",
+     "time_value": 7,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": 2.23,
+     "value_unit": "% difference vs saline",
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": "percent_change",
+     "effect_size_value": 2.23,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "group comparison, Holm-adjusted",
+     "p_value": "1",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "[ 3 H]Cimbi-36 (psilocybin vs. saline) | −43.39% ( p = 0.013) | +3.31% ( p = 1) | −50.19% ( p < 0.0001) | +2.23% ( p = 1)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "prefrontal cortex",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "approximately nine weeks",
+     "sex": "female",
+     "strain_or_line": "Danish slaughter pigs (Yorkshire x Duroc x Landrace)",
+     "probes": []
+    },
+    "missing": []
+   }
+  ]
+ },
+ "PMC6131656": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Mouse study measuring hippocampal cell proliferation, new-neuron survival, dendritic growth and synaptic input after one 5-MeO-DMT dose.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "BrdU proliferation assay",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "adult mice",
+     "n": 5,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "5-MeO-DMT 100 µg ICV",
+     "intervention_original": "5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": 100,
+     "dose_unit": "µg",
+     "route": "intracerebroventricular",
+     "regimen": "single injection",
+     "comparator_label": "10% DMSO in saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "BrdU+ proliferating cells in dentate gyrus",
+     "endpoint_normalized": "brdu_cells_dg",
+     "scale_level": "neurogenesis",
+     "assay_or_instrument": "BrdU immunohistochemistry",
+     "time_value": 12,
+     "time_unit": "hours",
+     "time_origin": "BrdU injection",
+     "value": 352.6,
+     "value_unit": "cells per animal",
+     "control_value": 155.4,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "unpaired t-test",
+     "p_value": "0.0029",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "5-MeO-DMT treated: 352.6 ± 41.48 BrdU+ cells per animal, n = 5 mice. p = 0.0029, unpaired t -test"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "proliferating progenitor cells",
+     "brain_region": "ventral dentate gyrus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "55-70 days",
+     "sex": "both",
+     "strain_or_line": "C57BL6J and DCX-CreERT2::tdTomlox/lox",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "BrdU proliferation assay",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "adult mice",
+     "n": 5,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "5-MeO-DMT 100 µg ICV",
+     "intervention_original": "5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": 100,
+     "dose_unit": "µg",
+     "route": "intracerebroventricular",
+     "regimen": "single injection",
+     "comparator_label": "10% DMSO in saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "BrdU+ cell clusters in dentate gyrus",
+     "endpoint_normalized": "brdu_clusters_dg",
+     "scale_level": "neurogenesis",
+     "assay_or_instrument": "BrdU immunohistochemistry",
+     "time_value": 12,
+     "time_unit": "hours",
+     "time_origin": "BrdU injection",
+     "value": 11.7,
+     "value_unit": "clusters per section",
+     "control_value": 5.964,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "unpaired t-test",
+     "p_value": "0.0002",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "5-MeO-DMT treated: 11.7 ± 0.6974 clusters per section, eight sections were analyzed per mice, n = 5 mice. p = 0.0002"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "proliferating progenitor cells",
+     "brain_region": "ventral dentate gyrus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "55-70 days",
+     "sex": "both",
+     "strain_or_line": "C57BL6J and DCX-CreERT2::tdTomlox/lox",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "DCX-CreERT2 fate mapping",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "adult mice",
+     "n": 6,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "5-MeO-DMT 100 µg ICV",
+     "intervention_original": "5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": 100,
+     "dose_unit": "µg",
+     "route": "intracerebroventricular",
+     "regimen": "single injection",
+     "comparator_label": "10% DMSO in saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "New granule cells surviving (DCX::tdTom+)",
+     "endpoint_normalized": "new_neurons_dg",
+     "scale_level": "neurogenesis",
+     "assay_or_instrument": "DCX::tdTom cell counts",
+     "time_value": 21,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": 220.3,
+     "value_unit": "cells",
+     "control_value": 104,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "unpaired t-test",
+     "p_value": "0.0006",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "5-MeO-DMT treated 220.3 ± 22.86 DCX::tdTom+ cells, n = 6 mice, p = 0.0006"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "newborn dentate gyrus granule cells (DCX::tdTom+)",
+     "brain_region": "ventral dentate gyrus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "55-70 days",
+     "sex": "both",
+     "strain_or_line": "C57BL6J and DCX-CreERT2::tdTomlox/lox",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Morphology of newborn granule cells",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "adult mice",
+     "n": 15,
+     "independent_unit": "cell"
+    },
+    "arm": {
+     "label": "5-MeO-DMT 100 µg ICV",
+     "intervention_original": "5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": 100,
+     "dose_unit": "µg",
+     "route": "intracerebroventricular",
+     "regimen": "single injection",
+     "comparator_label": "10% DMSO in saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Dendritic branch number",
+     "endpoint_normalized": "dendritic_branches",
+     "scale_level": "cellular",
+     "assay_or_instrument": "neuron tracing (ImageJ)",
+     "time_value": 21,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": 12.6,
+     "value_unit": "branches per cell",
+     "control_value": 7.15,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "unpaired t-test",
+     "p_value": "0.0001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "5-MeO-DMT treated: 12.6 ± 0.916 dendritic branches, n = 15 cells from six mice, p = 0.0001"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "newborn dentate gyrus granule cells (DCX::tdTom+)",
+     "brain_region": "ventral dentate gyrus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "55-70 days",
+     "sex": "both",
+     "strain_or_line": "C57BL6J and DCX-CreERT2::tdTomlox/lox",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Morphology of newborn granule cells",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "adult mice",
+     "n": 15,
+     "independent_unit": "cell"
+    },
+    "arm": {
+     "label": "5-MeO-DMT 100 µg ICV",
+     "intervention_original": "5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": 100,
+     "dose_unit": "µg",
+     "route": "intracerebroventricular",
+     "regimen": "single injection",
+     "comparator_label": "10% DMSO in saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Sholl intersections at 100 µm from soma",
+     "endpoint_normalized": "sholl_intersections_100um",
+     "scale_level": "cellular",
+     "assay_or_instrument": "Sholl analysis",
+     "time_value": 21,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": 6.357,
+     "value_unit": "intersections",
+     "control_value": 3.6,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "unpaired t-test",
+     "p_value": "0.0001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "100 μm, 6.357 ± 0.561"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "newborn dentate gyrus granule cells (DCX::tdTom+)",
+     "brain_region": "ventral dentate gyrus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "55-70 days",
+     "sex": "both",
+     "strain_or_line": "C57BL6J and DCX-CreERT2::tdTomlox/lox",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Patch clamp of newborn granule cells",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "adult mice",
+     "n": null,
+     "independent_unit": "cell"
+    },
+    "arm": {
+     "label": "5-MeO-DMT 100 µg ICV",
+     "intervention_original": "5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": 100,
+     "dose_unit": "µg",
+     "route": "intracerebroventricular",
+     "regimen": "single injection",
+     "comparator_label": "10% DMSO in saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "sEPSC frequency",
+     "endpoint_normalized": "sepsc_frequency",
+     "scale_level": "synaptic_functional",
+     "assay_or_instrument": "whole-cell patch clamp",
+     "time_value": 21,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": 1.35,
+     "value_unit": "Hz",
+     "control_value": 0.35,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "unpaired t-test",
+     "p_value": "0.002",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "the frequency of sEPSC was drastically increased in tdTomato+ GC of 5-MeO-DMT-treated mice when compared to controls (1.35 ± 0.22 Hz vs. 0.35 ± 0.07 Hz, respectively, p = 0.002"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "newborn dentate gyrus granule cells (DCX::tdTom+)",
+     "brain_region": "ventral dentate gyrus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "55-70 days",
+     "sex": "both",
+     "strain_or_line": "C57BL6J and DCX-CreERT2::tdTomlox/lox",
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "ambiguous"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Patch clamp of newborn granule cells",
+     "design": "animal_in_vivo",
+     "species": "mouse",
+     "population_or_model": "adult mice",
+     "n": null,
+     "independent_unit": "cell"
+    },
+    "arm": {
+     "label": "5-MeO-DMT 100 µg ICV",
+     "intervention_original": "5-MeO-DMT",
+     "intervention_normalized": "5-MeO-DMT",
+     "dose_value": 100,
+     "dose_unit": "µg",
+     "route": "intracerebroventricular",
+     "regimen": "single injection",
+     "comparator_label": "10% DMSO in saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "sEPSC amplitude",
+     "endpoint_normalized": "sepsc_amplitude",
+     "scale_level": "synaptic_functional",
+     "assay_or_instrument": "whole-cell patch clamp",
+     "time_value": 21,
+     "time_unit": "days",
+     "time_origin": "injection",
+     "value": 57.15,
+     "value_unit": "pA",
+     "control_value": 37.72,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": "unpaired t-test",
+     "p_value": "0.03",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "sEPSC amplitude was greater in tdTomato+ cells of 5-MeO-DMT-treated mice im comparison to controls (57.15 ± 4.68 pA vs. 37.72 ± 6.60 pA, respectively, p = 0.03"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "newborn dentate gyrus granule cells (DCX::tdTom+)",
+     "brain_region": "ventral dentate gyrus",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "55-70 days",
+     "sex": "both",
+     "strain_or_line": "C57BL6J and DCX-CreERT2::tdTomlox/lox",
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "ambiguous"
+     }
+    ]
+   }
+  ]
+ },
+ "PMC6639775": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Rat study of repeated low DMT doses measuring behavior, prefrontal spine density and gene expression.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Golgi-Cox spine analysis, females",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "young adult rats (from postnatal day 56)",
+     "n": 20,
+     "independent_unit": "cell"
+    },
+    "arm": {
+     "label": "DMT 1 mg/kg every third day",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "every third day for about 7 weeks",
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Dendritic spine density",
+     "endpoint_normalized": "spine_density",
+     "scale_level": "synaptic_structural",
+     "assay_or_instrument": "Golgi-Cox staining",
+     "time_value": 7,
+     "time_unit": "weeks",
+     "time_origin": "first dose",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.03",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "DMT-treated females showed a significant decrease in the number of spines per 10 μm as compared to vehicle controls ( p = 0.03)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "layer V pyramidal neurons",
+     "brain_region": "prefrontal cortex",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 56 at start",
+     "sex": "female",
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Golgi-Cox spine analysis, males",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "young adult rats (from postnatal day 56)",
+     "n": 12,
+     "independent_unit": "cell"
+    },
+    "arm": {
+     "label": "DMT 1 mg/kg every third day",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "every third day for about 7 weeks",
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Dendritic spine density",
+     "endpoint_normalized": "spine_density",
+     "scale_level": "synaptic_structural",
+     "assay_or_instrument": "Golgi-Cox staining",
+     "time_value": 7,
+     "time_unit": "weeks",
+     "time_origin": "first dose",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.98",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "We observed comparable spine density in the PFC of both the vehicle- and DMT-treated male animals ( p = 0.98)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "layer V pyramidal neurons",
+     "brain_region": "prefrontal cortex",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 56 at start",
+     "sex": "male",
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Fear conditioning and extinction",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "young adult rats (from postnatal day 56)",
+     "n": 11,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "DMT 1 mg/kg every third day",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "every third day for about 7 weeks",
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Freezing during cued extinction memory test",
+     "endpoint_normalized": "cued_extinction_freezing",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "fear conditioning / cued extinction",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.03",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "the DMT-treated animals froze significantly less than the vehicle controls ( p = 0.03)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 56 at start",
+     "sex": "both",
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "ambiguous"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Forced swim test, females",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "young adult rats (from postnatal day 56)",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "DMT 1 mg/kg every third day",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "every third day for about 7 weeks",
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Immobility in forced swim test",
+     "endpoint_normalized": "fst_immobility",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "forced swim test",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.02",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Treatment significantly decreased immobility for females ( p = 0.02)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 56 at start",
+     "sex": "female",
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "ambiguous"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Elevated plus maze",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "young adult rats (from postnatal day 56)",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "DMT 1 mg/kg every third day",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "every third day for about 7 weeks",
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "EPM anxiety score",
+     "endpoint_normalized": "epm_score",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "elevated plus maze",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.92",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Animals treated with DMT were indistinguishable from vehicle controls ( p = 0.92)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 56 at start",
+     "sex": "both",
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "ambiguous"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Novelty-induced locomotion",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "young adult rats (from postnatal day 56)",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "DMT 1 mg/kg every third day",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "every third day for about 7 weeks",
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "NIL anxiety score",
+     "endpoint_normalized": "nil_score",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "novelty-induced locomotion",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.08",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Chronic, intermittent, low doses of DMT did not produce a significant difference between treatment groups in the NIL Score ( p = 0.08)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 56 at start",
+     "sex": "both",
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "ambiguous"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Prefrontal gene expression",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "young adult rats (from postnatal day 56)",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "DMT 1 mg/kg every third day",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 1,
+     "dose_unit": "mg/kg",
+     "route": "intraperitoneal",
+     "regimen": "every third day for about 7 weeks",
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "BDNF expression",
+     "endpoint_normalized": "bdnf_expression",
+     "scale_level": "molecular",
+     "assay_or_instrument": "droplet digital PCR",
+     "time_value": 7,
+     "time_unit": "weeks",
+     "time_origin": "first dose",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Furthermore, it did not increase the expression of BDNF, a result that contrasts with increased BDNF expression"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "prefrontal cortex",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": "postnatal day 56 at start",
+     "sex": "both",
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     }
+    ]
+   }
+  ]
+ },
+ "PMC4655865": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Rat imaging and electrophysiology study of acute psilocin effects on BOLD signal, blood flow and neuronal responses.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "BOLD fMRI",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocin 2 mg/kg",
+     "intervention_original": "psilocin",
+     "intervention_normalized": "Psilocin",
+     "dose_value": 2,
+     "dose_unit": "mg/kg",
+     "route": null,
+     "regimen": "single dose",
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "BOLD signal",
+     "endpoint_normalized": "bold_signal",
+     "scale_level": "circuit",
+     "assay_or_instrument": "BOLD fMRI",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "decreases in BOLD signal in the cingulate cortex and somatosensory cortex after drug administration in animals receiving 2 mg/kg psilocin"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "cingulate and somatosensory cortex",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "BOLD fMRI",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocin 2 mg/kg",
+     "intervention_original": "psilocin",
+     "intervention_normalized": "Psilocin",
+     "dose_value": 2,
+     "dose_unit": "mg/kg",
+     "route": null,
+     "regimen": "single dose",
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "BOLD signal",
+     "endpoint_normalized": "bold_signal",
+     "scale_level": "circuit",
+     "assay_or_instrument": "BOLD fMRI",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "but an increased BOLD signal in the hypothalamus and amygdala"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "hypothalamus and amygdala",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "BOLD fMRI",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocin 0.03 mg/kg",
+     "intervention_original": "psilocin",
+     "intervention_normalized": "Psilocin",
+     "dose_value": 0.03,
+     "dose_unit": "mg/kg",
+     "route": null,
+     "regimen": "single dose",
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "BOLD signal",
+     "endpoint_normalized": "bold_signal",
+     "scale_level": "circuit",
+     "assay_or_instrument": "BOLD fMRI",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "At a dose of 0.03 mg/kg psilocin produced a small BOLD signal decrease in the cerebellum compared to vehicle treated controls but had no effect in other regions"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "cerebellum",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Whisker stimulation, haemodynamics",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocin 2 mg/kg",
+     "intervention_original": "psilocin",
+     "intervention_normalized": "Psilocin",
+     "dose_value": 2,
+     "dose_unit": "mg/kg",
+     "route": null,
+     "regimen": "single dose",
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Blood flow response to whisker stimulation",
+     "endpoint_normalized": "cbf_stimulus_response",
+     "scale_level": "circuit",
+     "assay_or_instrument": "laser Doppler / haemodynamic recording",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Psilocin treated animals showed increased haemodynamic response amplitude to whisker stimulation following drug administration"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "somatosensory (barrel) cortex",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Whisker stimulation, electrophysiology",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocin 2 mg/kg",
+     "intervention_original": "psilocin",
+     "intervention_normalized": "Psilocin",
+     "dose_value": 2,
+     "dose_unit": "mg/kg",
+     "route": null,
+     "regimen": "single dose",
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Neuronal response to whisker stimulation (LFP)",
+     "endpoint_normalized": "lfp_stimulus_response",
+     "scale_level": "circuit",
+     "assay_or_instrument": "local field potential recording",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "psilocin treated animals showed a significant reduction in neuronal response magnitude"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": "somatosensory (barrel) cortex",
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   }
+  ]
+ },
+ "PMC4032947": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Rat study of psilocin effects on spatial memory acquisition, retrieval and consolidation.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Carousel maze acquisition",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocin 1 mg/kg s.c.",
+     "intervention_original": "psilocin",
+     "intervention_normalized": "Psilocin",
+     "dose_value": 1,
+     "dose_unit": "mg/kg",
+     "route": "subcutaneous",
+     "regimen": null,
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Entrances into shock sector (errors)",
+     "endpoint_normalized": "carousel_errors",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Carousel maze",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.05",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "The group treated with the low dose of psilocin (1 mg/kg) showed significant impairment in solving the Carousel maze task in sessions 3 and 4"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_applicable"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Carousel maze acquisition",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocin 4 mg/kg s.c.",
+     "intervention_original": "psilocin",
+     "intervention_normalized": "Psilocin",
+     "dose_value": 4,
+     "dose_unit": "mg/kg",
+     "route": "subcutaneous",
+     "regimen": null,
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Entrances into shock sector (errors)",
+     "endpoint_normalized": "carousel_errors",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Carousel maze",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.05",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "The group treated with the higher dose of psilocin 4 mg/kg showed significant impairment in solving the Carousel maze in sessions 3 through 5"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_applicable"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Carousel maze acquisition",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocin 1 mg/kg s.c.",
+     "intervention_original": "psilocin",
+     "intervention_normalized": "Psilocin",
+     "dose_value": 1,
+     "dose_unit": "mg/kg",
+     "route": "subcutaneous",
+     "regimen": null,
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Locomotor activity",
+     "endpoint_normalized": "locomotion",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Carousel maze",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": ">0.05",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "There was no significant difference between the control group and the group treated with 1 mg/kg of psilocin ( P > 0.05) during all five sessions"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_applicable"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Carousel maze acquisition",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocin 4 mg/kg s.c.",
+     "intervention_original": "psilocin",
+     "intervention_normalized": "Psilocin",
+     "dose_value": 4,
+     "dose_unit": "mg/kg",
+     "route": "subcutaneous",
+     "regimen": null,
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Locomotor activity",
+     "endpoint_normalized": "locomotion",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Carousel maze",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.05",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "These results show that a dose of 4 mg/kg of psilocin induced a decrease in locomotor activity"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_applicable"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Morris water maze retrieval",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocin 4 mg/kg s.c.",
+     "intervention_original": "psilocin",
+     "intervention_normalized": "Psilocin",
+     "dose_value": 4,
+     "dose_unit": "mg/kg",
+     "route": "subcutaneous",
+     "regimen": null,
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Memory retrieval (escape latency)",
+     "endpoint_normalized": "mwm_retrieval_latency",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Morris water maze",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.01",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Post hoc tests indicated that the retrieval was impaired in the group treated with a 4-mg/kg dose ( P < 0.01)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_applicable"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Morris water maze consolidation",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocin 4 mg/kg s.c.",
+     "intervention_original": "psilocin",
+     "intervention_normalized": "Psilocin",
+     "dose_value": 4,
+     "dose_unit": "mg/kg",
+     "route": "subcutaneous",
+     "regimen": null,
+     "comparator_label": "saline",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Memory consolidation",
+     "endpoint_normalized": "mwm_consolidation",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "Morris water maze",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.3390",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Psilocin did not affect the consolidation in the MWM"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_applicable"
+     }
+    ]
+   }
+  ]
+ },
+ "PMC7952974": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Rat study of low psilocybin doses on locomotion, 5-HT2A-mediated behaviors, food motivation and attention.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Open field locomotion",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.3 mg/kg SC",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.3,
+     "dose_unit": "mg/kg",
+     "route": "subcutaneous",
+     "regimen": null,
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Distance traveled",
+     "endpoint_normalized": "distance_traveled",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "open field",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": 5716,
+     "value_unit": "cm",
+     "control_value": 4141,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.04",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "psilo 0.3 mg/kg: 5,716 ± 399; p = 0.04"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "5-HT2A antagonist pretreatment",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": null,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 1 mg/kg SC + M100907",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 1,
+     "dose_unit": "mg/kg",
+     "route": "subcutaneous",
+     "regimen": null,
+     "comparator_label": "psilocybin 1 mg/kg alone",
+     "comparator_type": "active"
+    },
+    "measurement": {
+     "endpoint_original": "Wet dog shakes / back muscle contractions",
+     "endpoint_normalized": "wds_bmc",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "behavioral scoring",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": 0.7,
+     "value_unit": "incidence score",
+     "control_value": 35.9,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "(Veh/Psilocybin: 35.9 ± 4.9; M100907/Psilocybin: 0.7 ± 0.3; p < 0.001)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": [
+      {
+       "agent": "M100907",
+       "target": "5-HT2A receptor",
+       "probe_type": "antagonist",
+       "dose_value": 0.5,
+       "dose_unit": "mg/kg",
+       "effect_on_response": "blocked"
+      }
+     ]
+    },
+    "missing": [
+     {
+      "field": "experiment.n",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Progressive ratio, low performers",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": 24,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.05-0.1 mg/kg SC",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "subcutaneous",
+     "regimen": null,
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Lever presses for food (motivation)",
+     "endpoint_normalized": "pr_lever_presses",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "progressive ratio task",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.01",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "reflecting increases in both measures following psilocybin 0.05–0.1 mg/kg pretreatment relative to vehicle"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "arm.dose_value",
+      "reason": "ambiguous"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Progressive ratio, all rats",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": 72,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.05-0.1 mg/kg SC",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "subcutaneous",
+     "regimen": null,
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Lever presses for food (motivation)",
+     "endpoint_normalized": "pr_lever_presses",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "progressive ratio task",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.1",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "there was no main effect of treatment on number of lever press (F3,210 = 1.9, p = 0.1; NS"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "arm.dose_value",
+      "reason": "ambiguous"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "5-choice serial reaction time task",
+     "design": "animal_in_vivo",
+     "species": "rat",
+     "population_or_model": "adult rats",
+     "n": 24,
+     "independent_unit": "animal"
+    },
+    "arm": {
+     "label": "Psilocybin 0.1 mg/kg SC",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.1,
+     "dose_unit": "mg/kg",
+     "route": "subcutaneous",
+     "regimen": null,
+     "comparator_label": "vehicle",
+     "comparator_type": "vehicle"
+    },
+    "measurement": {
+     "endpoint_original": "Attention accuracy (% correct)",
+     "endpoint_normalized": "fivecsrtt_pct_correct",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "5-CSRTT",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": 87.7,
+     "value_unit": "% correct",
+     "control_value": 85.2,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Psilocybin (0.1 mg/kg) | 70.0 ± 3.2 | 9.8 ± 1.2 | 15.8 ± 2.8 | 87.7 ± 1.5"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": null,
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": null,
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   }
+  ]
+ },
+ "PMC7577737": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Human EEG study of travelling cortical waves after intravenous DMT versus placebo.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Placebo-controlled within-subject EEG study",
+     "design": "nonrandomized_trial",
+     "species": "human",
+     "population_or_model": "healthy volunteers, eyes closed",
+     "n": 13,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "DMT IV (7-20 mg)",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "intravenous",
+     "regimen": "single injection; 7, 14, 18 or 20 mg by participant",
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "Forward (posterior-to-anterior) travelling waves",
+     "endpoint_normalized": "eeg_forward_waves",
+     "scale_level": "circuit",
+     "assay_or_instrument": "EEG, 2D-FFT wave analysis",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "whereas the amount of FW waves increased significantly above zero (BF 10 = 5.4 95% CI: [0.027, 0.336])"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "ambiguous"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "ambiguous"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Placebo-controlled within-subject EEG study",
+     "design": "nonrandomized_trial",
+     "species": "human",
+     "population_or_model": "healthy volunteers, eyes closed",
+     "n": 13,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "DMT IV (7-20 mg)",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "intravenous",
+     "regimen": "single injection; 7, 14, 18 or 20 mg by participant",
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "Backward (anterior-to-posterior) travelling waves",
+     "endpoint_normalized": "eeg_backward_waves",
+     "scale_level": "circuit",
+     "assay_or_instrument": "EEG, 2D-FFT wave analysis",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "the amount of BW waves decreased (but remaining significantly above zero – BFs 10 = 12.6, 95% CI: [0.057, 0.322])"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "ambiguous"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "ambiguous"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Placebo-controlled within-subject EEG study",
+     "design": "nonrandomized_trial",
+     "species": "human",
+     "population_or_model": "healthy volunteers, eyes closed",
+     "n": 13,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "DMT IV (7-20 mg)",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "intravenous",
+     "regimen": "single injection; 7, 14, 18 or 20 mg by participant",
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "Left-right travelling waves",
+     "endpoint_normalized": "eeg_lateral_waves",
+     "scale_level": "circuit",
+     "assay_or_instrument": "EEG, 2D-FFT wave analysis",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "waves propagating from leftward to rightward regions (and vice versa), were not affected by DMT"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "arm.dose_value",
+      "reason": "ambiguous"
+     },
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "ambiguous"
+     }
+    ]
+   }
+  ]
+ },
+ "PMC4732191": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Randomized crossover fMRI study of psilocybin effects on threat-related amygdala-visual cortex connectivity.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Randomized double-blind placebo-controlled crossover fMRI",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "healthy adults",
+     "n": 23,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin 0.16 mg/kg oral",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.16,
+     "dose_unit": "mg/kg",
+     "route": "oral",
+     "regimen": "single dose",
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "Threat-induced modulation of amygdala to visual cortex connectivity",
+     "endpoint_normalized": "amygdala_v1_threat_modulation",
+     "scale_level": "circuit",
+     "assay_or_instrument": "fMRI dynamic causal modeling",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": 0.03,
+     "value_unit": "Hz",
+     "control_value": 0.526,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 0.14,
+     "uncertainty_high": null,
+     "statistical_test": "Duncan's multiple range test",
+     "p_value": "0.01",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "the threat-induced modulation of AMY → V1 connectivity was significantly reduced after psilocybin compared to placebo administration (p = 0.01; Duncan's multiple range test corrected)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Randomized double-blind placebo-controlled crossover fMRI",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "healthy adults",
+     "n": 23,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin 0.16 mg/kg oral",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.16,
+     "dose_unit": "mg/kg",
+     "route": "oral",
+     "regimen": "single dose",
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "Endogenous amygdala-visual-prefrontal connectivity",
+     "endpoint_normalized": "endogenous_amg_connectivity",
+     "scale_level": "circuit",
+     "assay_or_instrument": "fMRI dynamic causal modeling",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": ">0.05",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "There was no significant effect of psilocybin on endogenous or input parameters (all p > 0.05)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     },
+     {
+      "field": "measurement.time_value",
+      "reason": "not_reported"
+     }
+    ]
+   }
+  ]
+ }
+}

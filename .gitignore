@@ -1,0 +1,8 @@
+.DS_Store
+.venv/
+__pycache__/
+# Licensed full text stays local; never commit it.
+data/fulltext/
+
+# Private business documents stay local.
+docs/BUSINESS_PROPOSAL.md

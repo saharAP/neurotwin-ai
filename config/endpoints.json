@@ -1,0 +1,73 @@
+{
+  "_readme": "DRAFT endpoint registry for the Neuron Outcome Atlas (docs/MVP_V0.md §4). It has not been reviewed by a neuroscientist. Each outcome lists its canonical endpoints. `aliases` are the endpoint keys (measurement.endpoint_normalized) that existing evidence rows use for that endpoint; a row whose key is in no alias list is unmapped and is not shown in the atlas. Two measurements are comparable only within the same endpoint. `visual` picks the schematic drawn on the outcome page (neurogenesis, spines, branching, survival) or null for outcomes that are not a shape or a count of cells.",
+  "status": "draft",
+  "outcomes": [
+    {
+      "id": "neurogenesis",
+      "label": "Adult neurogenesis",
+      "short": "Neurogenesis",
+      "description": "New neurons: proliferating progenitor cells and newborn neurons that survive.",
+      "visual": "neurogenesis",
+      "endpoints": [
+        {"id": "s_phase_labelled_cells", "label": "BrdU+ or EdU+ cells (S-phase label)", "aliases": ["brdu_cells_dg", "edu_proliferation"]},
+        {"id": "ki67_cells", "label": "Ki-67+ cycling cells", "aliases": ["ki67_fraction"]},
+        {"id": "dcx_new_neurons", "label": "DCX+ newborn neurons", "aliases": ["new_neurons_dg"]},
+        {"id": "surviving_new_neurons", "label": "Surviving new neurons (BrdU+/NeuN+)", "aliases": []}
+      ]
+    },
+    {
+      "id": "spine_density",
+      "label": "Dendritic spine density",
+      "short": "Spines",
+      "description": "Spinogenesis: spines per length of dendrite, and how fast spines form or are lost.",
+      "visual": "spines",
+      "endpoints": [
+        {"id": "spine_density", "label": "Spines per unit dendrite length", "aliases": ["spine_density"]},
+        {"id": "spine_formation_rate", "label": "Spine formation rate", "aliases": []},
+        {"id": "spine_elimination_rate", "label": "Spine elimination rate", "aliases": []}
+      ]
+    },
+    {
+      "id": "dendritic_complexity",
+      "label": "Dendritic complexity",
+      "short": "Dendrites",
+      "description": "Dendritogenesis: branching and length of the dendritic tree.",
+      "visual": "branching",
+      "endpoints": [
+        {"id": "sholl_intersections", "label": "Sholl intersections", "aliases": ["sholl_intersections_100um"]},
+        {"id": "branch_number", "label": "Dendritic branch number", "aliases": ["dendritic_branches"]},
+        {"id": "dendritic_length", "label": "Total dendritic or neurite length", "aliases": ["dendritic_length"]}
+      ]
+    },
+    {
+      "id": "synaptic_markers",
+      "label": "Synaptic markers",
+      "short": "Synaptic markers",
+      "description": "Proteins used as markers of synapse number or strength.",
+      "visual": null,
+      "endpoints": [
+        {"id": "psd95", "label": "PSD-95", "aliases": ["psd95_expression"]},
+        {"id": "synaptophysin", "label": "Synaptophysin", "aliases": ["synaptophysin_expression"]},
+        {"id": "sv2a", "label": "SV2A", "aliases": ["sv2a_density", "sv2a_expression"]},
+        {"id": "synapse_count", "label": "Synapse counts", "aliases": []}
+      ]
+    },
+    {
+      "id": "neuron_survival",
+      "label": "Neuron survival or loss",
+      "short": "Survival / loss",
+      "description": "Neurodegenerative features: how many neurons survive, die or are lost.",
+      "visual": "survival",
+      "endpoints": [
+        {"id": "neuron_survival", "label": "Surviving neurons", "aliases": ["neuron_survival_hypoxia"]},
+        {"id": "neuron_count", "label": "Neuron counts (e.g. NeuN+, TH+)", "aliases": []},
+        {"id": "apoptosis_marker", "label": "Apoptosis markers (cleaved caspase-3, TUNEL)", "aliases": []},
+        {"id": "cell_viability", "label": "Cell viability", "aliases": ["nsc_viability"]}
+      ]
+    }
+  ],
+  "context_markers": [
+    {"id": "bdnf", "label": "BDNF", "aliases": ["bdnf_mrna", "bdnf_protein", "bdnf_expression"]},
+    {"id": "other_neurotrophins", "label": "Other neurotrophins (NGF, NT-3)", "aliases": ["ngf_mrna", "ntf3_mrna"]}
+  ]
+}

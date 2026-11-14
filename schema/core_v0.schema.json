@@ -1,0 +1,1275 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NeuroTwin AI core schema core-0.4.0",
+  "description": "Generated from pipeline/schema.py; do not edit by hand.",
+  "$defs": {
+    "Publication": {
+      "$defs": {
+        "RecordMeta": {
+          "additionalProperties": false,
+          "properties": {
+            "schema_version": {
+              "default": "core-0.4.0",
+              "title": "Schema Version",
+              "type": "string"
+            },
+            "pipeline_version": {
+              "default": "mvp0-pipeline-0.4.0",
+              "title": "Pipeline Version",
+              "type": "string"
+            },
+            "created_at": {
+              "title": "Created At",
+              "type": "string"
+            },
+            "updated_at": {
+              "title": "Updated At",
+              "type": "string"
+            },
+            "curation_status": {
+              "default": "raw",
+              "enum": [
+                "raw",
+                "machine_extracted",
+                "needs_review",
+                "verified",
+                "rejected",
+                "superseded"
+              ],
+              "title": "Curation Status",
+              "type": "string"
+            },
+            "reviewer_id": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Reviewer Id"
+            },
+            "reviewed_at": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Reviewed At"
+            }
+          },
+          "required": [
+            "created_at",
+            "updated_at"
+          ],
+          "title": "RecordMeta",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "meta": {
+          "$ref": "#/$defs/RecordMeta"
+        },
+        "missing_reasons": {
+          "additionalProperties": {
+            "enum": [
+              "not_reported",
+              "not_applicable",
+              "not_accessible",
+              "ambiguous",
+              "extraction_failed",
+              "pending_review"
+            ],
+            "type": "string"
+          },
+          "title": "Missing Reasons",
+          "type": "object"
+        },
+        "extended": {
+          "title": "Extended",
+          "type": "object"
+        },
+        "publication_id": {
+          "pattern": "^pub_[0-9a-f]{16}$",
+          "title": "Publication Id",
+          "type": "string"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "pmid": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pmid"
+        },
+        "pmcid": {
+          "anyOf": [
+            {
+              "pattern": "^PMC\\d+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pmcid"
+        },
+        "title": {
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "year": {
+          "anyOf": [
+            {
+              "maximum": 2100,
+              "minimum": 1900,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Year"
+        },
+        "journal": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Journal"
+        },
+        "publication_type": {
+          "enum": [
+            "primary_experimental",
+            "systematic_review",
+            "narrative_review",
+            "dataset",
+            "clinical_trial",
+            "observational_study",
+            "case_report",
+            "qualitative_study",
+            "editorial_or_comment",
+            "other"
+          ],
+          "title": "Publication Type",
+          "type": "string"
+        },
+        "peer_review_status": {
+          "enum": [
+            "peer_reviewed",
+            "preprint",
+            "unknown"
+          ],
+          "title": "Peer Review Status",
+          "type": "string"
+        },
+        "is_retracted": {
+          "title": "Is Retracted",
+          "type": "boolean"
+        },
+        "license": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License"
+        },
+        "full_text_access": {
+          "enum": [
+            "abstract",
+            "open_full_text",
+            "licensed_full_text",
+            "user_supplied",
+            "unavailable"
+          ],
+          "title": "Full Text Access",
+          "type": "string"
+        },
+        "source_role": {
+          "enum": [
+            "primary_measurement",
+            "review_discovery",
+            "method_reference"
+          ],
+          "title": "Source Role",
+          "type": "string"
+        }
+      },
+      "required": [
+        "meta",
+        "publication_id",
+        "title",
+        "publication_type",
+        "peer_review_status",
+        "is_retracted",
+        "full_text_access",
+        "source_role"
+      ],
+      "title": "Publication",
+      "type": "object"
+    },
+    "EvidenceRow": {
+      "$defs": {
+        "AdverseEvent": {
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "title": "Name",
+              "type": "string"
+            },
+            "arm_label": {
+              "title": "Arm Label",
+              "type": "string"
+            },
+            "n_participants_with_event": {
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "N Participants With Event"
+            },
+            "n_participants_in_arm": {
+              "anyOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "N Participants In Arm"
+            },
+            "severity": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "mild",
+                    "moderate",
+                    "severe",
+                    "serious",
+                    "not_reported"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Severity"
+            }
+          },
+          "required": [
+            "name",
+            "arm_label"
+          ],
+          "title": "AdverseEvent",
+          "type": "object"
+        },
+        "Arm": {
+          "additionalProperties": false,
+          "properties": {
+            "label": {
+              "title": "Label",
+              "type": "string"
+            },
+            "intervention_original": {
+              "title": "Intervention Original",
+              "type": "string"
+            },
+            "intervention_normalized": {
+              "title": "Intervention Normalized",
+              "type": "string"
+            },
+            "intervention_type": {
+              "default": "substance",
+              "enum": [
+                "substance",
+                "exercise",
+                "sleep",
+                "meditation",
+                "diet",
+                "environment",
+                "other"
+              ],
+              "title": "Intervention Type",
+              "type": "string"
+            },
+            "dose_value": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Dose Value"
+            },
+            "dose_unit": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Dose Unit"
+            },
+            "route": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Route"
+            },
+            "regimen": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Regimen"
+            },
+            "comparator_label": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Comparator Label"
+            },
+            "comparator_type": {
+              "enum": [
+                "placebo",
+                "active",
+                "waitlist",
+                "vehicle",
+                "untreated",
+                "baseline_within_subject",
+                "none",
+                "other"
+              ],
+              "title": "Comparator Type",
+              "type": "string"
+            }
+          },
+          "required": [
+            "label",
+            "intervention_original",
+            "intervention_normalized",
+            "comparator_type"
+          ],
+          "title": "Arm",
+          "type": "object"
+        },
+        "ClinicalExtension": {
+          "additionalProperties": false,
+          "description": "Human-study fields missing from the culture-focused dictionary.",
+          "properties": {
+            "scale_name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Scale Name"
+            },
+            "higher_score_means": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "worse",
+                    "better"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Higher Score Means"
+            },
+            "responder_rate": {
+              "anyOf": [
+                {
+                  "maximum": 1.0,
+                  "minimum": 0.0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Responder Rate"
+            },
+            "remission_rate": {
+              "anyOf": [
+                {
+                  "maximum": 1.0,
+                  "minimum": 0.0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Remission Rate"
+            },
+            "response_definition": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Response Definition"
+            },
+            "blinding_integrity_assessed": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "yes",
+                    "no",
+                    "unclear"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Blinding Integrity Assessed"
+            },
+            "follow_up": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Follow Up"
+            },
+            "adverse_events": {
+              "items": {
+                "$ref": "#/$defs/AdverseEvent"
+              },
+              "title": "Adverse Events",
+              "type": "array"
+            }
+          },
+          "title": "ClinicalExtension",
+          "type": "object"
+        },
+        "Experiment": {
+          "additionalProperties": false,
+          "properties": {
+            "label": {
+              "title": "Label",
+              "type": "string"
+            },
+            "design": {
+              "enum": [
+                "randomized_controlled_trial",
+                "nonrandomized_trial",
+                "open_label_trial",
+                "observational",
+                "case_report_or_series",
+                "survey",
+                "animal_in_vivo",
+                "ex_vivo",
+                "in_vitro",
+                "organoid",
+                "computational"
+              ],
+              "title": "Design",
+              "type": "string"
+            },
+            "species": {
+              "title": "Species",
+              "type": "string"
+            },
+            "population_or_model": {
+              "title": "Population Or Model",
+              "type": "string"
+            },
+            "n": {
+              "anyOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "N"
+            },
+            "independent_unit": {
+              "enum": [
+                "participant",
+                "animal",
+                "donor",
+                "culture_well",
+                "cell",
+                "slice",
+                "other"
+              ],
+              "title": "Independent Unit",
+              "type": "string"
+            }
+          },
+          "required": [
+            "label",
+            "design",
+            "species",
+            "population_or_model",
+            "independent_unit"
+          ],
+          "title": "Experiment",
+          "type": "object"
+        },
+        "Measurement": {
+          "additionalProperties": false,
+          "properties": {
+            "endpoint_original": {
+              "title": "Endpoint Original",
+              "type": "string"
+            },
+            "endpoint_normalized": {
+              "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$",
+              "title": "Endpoint Normalized",
+              "type": "string"
+            },
+            "scale_level": {
+              "enum": [
+                "molecular",
+                "cellular",
+                "neurogenesis",
+                "synaptic_structural",
+                "synaptic_functional",
+                "circuit",
+                "behavioral",
+                "clinical"
+              ],
+              "title": "Scale Level",
+              "type": "string"
+            },
+            "assay_or_instrument": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Assay Or Instrument"
+            },
+            "time_value": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Time Value"
+            },
+            "time_unit": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "seconds",
+                    "minutes",
+                    "hours",
+                    "days",
+                    "weeks",
+                    "months",
+                    "years"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Time Unit"
+            },
+            "time_origin": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Time Origin"
+            },
+            "value": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Value"
+            },
+            "value_unit": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Value Unit"
+            },
+            "control_value": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Control Value"
+            },
+            "effect_direction": {
+              "enum": [
+                "increase",
+                "decrease",
+                "no_change",
+                "mixed",
+                "not_reported"
+              ],
+              "title": "Effect Direction",
+              "type": "string"
+            },
+            "effect_size_type": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "absolute_difference",
+                    "ratio",
+                    "percent_change",
+                    "standardized_mean_difference",
+                    "odds_ratio",
+                    "risk_ratio",
+                    "hazard_ratio",
+                    "correlation",
+                    "other"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Effect Size Type"
+            },
+            "effect_size_value": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Effect Size Value"
+            },
+            "uncertainty_type": {
+              "default": "none_reported",
+              "enum": [
+                "SD",
+                "SEM",
+                "CI95",
+                "CI_other",
+                "IQR",
+                "range",
+                "none_reported"
+              ],
+              "title": "Uncertainty Type",
+              "type": "string"
+            },
+            "uncertainty_low": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Uncertainty Low"
+            },
+            "uncertainty_high": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Uncertainty High"
+            },
+            "statistical_test": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Statistical Test"
+            },
+            "p_value": {
+              "anyOf": [
+                {
+                  "pattern": "^(<|>|<=|=)?\\s?\\d*\\.?\\d+(e-?\\d+)?$",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "P Value"
+            },
+            "value_origin": {
+              "default": "author_reported",
+              "enum": [
+                "author_reported",
+                "digitized_from_plot",
+                "statistically_derived"
+              ],
+              "title": "Value Origin",
+              "type": "string"
+            }
+          },
+          "required": [
+            "endpoint_original",
+            "endpoint_normalized",
+            "scale_level",
+            "effect_direction"
+          ],
+          "title": "Measurement",
+          "type": "object"
+        },
+        "MechanismProbe": {
+          "additionalProperties": false,
+          "description": "A co-treatment used to test mechanism, e.g. ketanserin blocking 5-HT2A.",
+          "properties": {
+            "agent": {
+              "title": "Agent",
+              "type": "string"
+            },
+            "target": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Target"
+            },
+            "probe_type": {
+              "enum": [
+                "antagonist",
+                "inhibitor",
+                "agonist",
+                "genetic_knockout",
+                "genetic_knockdown",
+                "other"
+              ],
+              "title": "Probe Type",
+              "type": "string"
+            },
+            "dose_value": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Dose Value"
+            },
+            "dose_unit": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Dose Unit"
+            },
+            "effect_on_response": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "blocked",
+                    "reduced",
+                    "no_change",
+                    "enhanced",
+                    "not_reported"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Effect On Response"
+            }
+          },
+          "required": [
+            "agent",
+            "probe_type"
+          ],
+          "title": "MechanismProbe",
+          "type": "object"
+        },
+        "PreclinicalExtension": {
+          "additionalProperties": false,
+          "description": "Neuron-level variables for cell, tissue and animal studies (DATA_STRATEGY \u00a76, \u00a79).",
+          "properties": {
+            "cell_type": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Cell Type"
+            },
+            "brain_region": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Brain Region"
+            },
+            "culture_age_value": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Culture Age Value"
+            },
+            "culture_age_unit": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Culture Age Unit"
+            },
+            "animal_age": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Animal Age"
+            },
+            "sex": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "male",
+                    "female",
+                    "both",
+                    "not_reported"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Sex"
+            },
+            "strain_or_line": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Strain Or Line"
+            },
+            "probes": {
+              "items": {
+                "$ref": "#/$defs/MechanismProbe"
+              },
+              "title": "Probes",
+              "type": "array"
+            }
+          },
+          "title": "PreclinicalExtension",
+          "type": "object"
+        },
+        "RecordMeta": {
+          "additionalProperties": false,
+          "properties": {
+            "schema_version": {
+              "default": "core-0.4.0",
+              "title": "Schema Version",
+              "type": "string"
+            },
+            "pipeline_version": {
+              "default": "mvp0-pipeline-0.4.0",
+              "title": "Pipeline Version",
+              "type": "string"
+            },
+            "created_at": {
+              "title": "Created At",
+              "type": "string"
+            },
+            "updated_at": {
+              "title": "Updated At",
+              "type": "string"
+            },
+            "curation_status": {
+              "default": "raw",
+              "enum": [
+                "raw",
+                "machine_extracted",
+                "needs_review",
+                "verified",
+                "rejected",
+                "superseded"
+              ],
+              "title": "Curation Status",
+              "type": "string"
+            },
+            "reviewer_id": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Reviewer Id"
+            },
+            "reviewed_at": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Reviewed At"
+            }
+          },
+          "required": [
+            "created_at",
+            "updated_at"
+          ],
+          "title": "RecordMeta",
+          "type": "object"
+        },
+        "SourceAnchor": {
+          "additionalProperties": false,
+          "properties": {
+            "location": {
+              "enum": [
+                "abstract",
+                "text",
+                "table",
+                "figure",
+                "supplement"
+              ],
+              "title": "Location",
+              "type": "string"
+            },
+            "section": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Section"
+            },
+            "label": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Label"
+            },
+            "quote": {
+              "maxLength": 400,
+              "minLength": 3,
+              "title": "Quote",
+              "type": "string"
+            },
+            "quote_verified": {
+              "default": false,
+              "title": "Quote Verified",
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "location",
+            "quote"
+          ],
+          "title": "SourceAnchor",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "meta": {
+          "$ref": "#/$defs/RecordMeta"
+        },
+        "missing_reasons": {
+          "additionalProperties": {
+            "enum": [
+              "not_reported",
+              "not_applicable",
+              "not_accessible",
+              "ambiguous",
+              "extraction_failed",
+              "pending_review"
+            ],
+            "type": "string"
+          },
+          "title": "Missing Reasons",
+          "type": "object"
+        },
+        "extended": {
+          "title": "Extended",
+          "type": "object"
+        },
+        "evidence_id": {
+          "pattern": "^meas_[0-9a-f]{16}$",
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "publication_id": {
+          "pattern": "^pub_[0-9a-f]{16}$",
+          "title": "Publication Id",
+          "type": "string"
+        },
+        "experiment": {
+          "$ref": "#/$defs/Experiment"
+        },
+        "arm": {
+          "$ref": "#/$defs/Arm"
+        },
+        "measurement": {
+          "$ref": "#/$defs/Measurement"
+        },
+        "anchors": {
+          "items": {
+            "$ref": "#/$defs/SourceAnchor"
+          },
+          "minItems": 1,
+          "title": "Anchors",
+          "type": "array"
+        },
+        "clinical": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ClinicalExtension"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "preclinical": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PreclinicalExtension"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "extraction_pass": {
+          "enum": [
+            "a",
+            "b",
+            "merged"
+          ],
+          "title": "Extraction Pass",
+          "type": "string"
+        },
+        "agreement": {
+          "default": "pending",
+          "enum": [
+            "pending",
+            "ai_consistent",
+            "ai_disputed",
+            "single_pass"
+          ],
+          "title": "Agreement",
+          "type": "string"
+        }
+      },
+      "required": [
+        "meta",
+        "evidence_id",
+        "publication_id",
+        "experiment",
+        "arm",
+        "measurement",
+        "anchors",
+        "extraction_pass"
+      ],
+      "title": "EvidenceRow",
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,418 @@
+{
+ "PMC5021697": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "In vitro study measuring survival and hypoxia markers in human iPSC neurons with DMT and a sigma-1 receptor knockdown.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Hypoxia (0.5% O2) assay, human iPSC-derived cortical neurons",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived cerebral cortical neurons",
+     "n": 3,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 10 µM",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 10,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": "added before hypoxia",
+     "comparator_label": "Hypoxia control (no DMT)",
+     "comparator_type": "untreated"
+    },
+    "measurement": {
+     "endpoint_original": "Neuronal survival under hypoxia (Annexin V flow cytometry)",
+     "endpoint_normalized": "neuron_survival_hypoxia",
+     "scale_level": "cellular",
+     "assay_or_instrument": "Annexin V-FITC flow cytometry",
+     "time_value": 6,
+     "time_unit": "hours",
+     "time_origin": "hypoxia onset",
+     "value": 31,
+     "value_unit": "% surviving cells (median)",
+     "control_value": 19,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.037",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "the administration of 10 and 50 μMs DMT elevated this value to a median of 31% (±6%, p = 0.037) and 64% (±5%, p = 0.006), respectively"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived cerebral cortical neurons (Axol)",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "Axol Bioscience iPSC-derived neural progenitors",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Hypoxia (0.5% O2) assay, human iPSC-derived cortical neurons",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived cerebral cortical neurons",
+     "n": 3,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 50 µM",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 50,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": "added before hypoxia",
+     "comparator_label": "Hypoxia control (no DMT)",
+     "comparator_type": "untreated"
+    },
+    "measurement": {
+     "endpoint_original": "Neuronal survival under hypoxia (Annexin V flow cytometry)",
+     "endpoint_normalized": "neuron_survival_hypoxia",
+     "scale_level": "cellular",
+     "assay_or_instrument": "Annexin V-FITC flow cytometry",
+     "time_value": 6,
+     "time_unit": "hours",
+     "time_origin": "hypoxia onset",
+     "value": 64,
+     "value_unit": "% surviving cells (median)",
+     "control_value": 19,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.006",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "the administration of 10 and 50 μMs DMT elevated this value to a median of 31% (±6%, p = 0.037) and 64% (±5%, p = 0.006), respectively"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived cerebral cortical neurons (Axol)",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "Axol Bioscience iPSC-derived neural progenitors",
+     "probes": []
+    },
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Hypoxia (0.5% O2) assay, human iPSC-derived cortical neurons",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived cerebral cortical neurons",
+     "n": 3,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 50 µM + Sig-1R siRNA",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 50,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": "added before hypoxia",
+     "comparator_label": "DMT 50 µM + control siRNA",
+     "comparator_type": "active"
+    },
+    "measurement": {
+     "endpoint_original": "Neuronal survival under hypoxia (Annexin V flow cytometry)",
+     "endpoint_normalized": "neuron_survival_hypoxia",
+     "scale_level": "cellular",
+     "assay_or_instrument": "Annexin V-FITC flow cytometry",
+     "time_value": 6,
+     "time_unit": "hours",
+     "time_origin": "hypoxia onset",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.05",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "specific silencing of Sig-1R abrogated the modulatory potential of DMT on the survival (Figure 4B )"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived cerebral cortical neurons (Axol)",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "Axol Bioscience iPSC-derived neural progenitors",
+     "probes": [
+      {
+       "agent": "Sig-1R siRNA",
+       "target": "sigma-1 receptor",
+       "probe_type": "genetic_knockdown",
+       "dose_value": null,
+       "dose_unit": null,
+       "effect_on_response": "blocked"
+      }
+     ]
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Hypoxia (0.5% O2) assay, human iPSC-derived cortical neurons",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived cerebral cortical neurons",
+     "n": 3,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 50 µM",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 50,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": "added before hypoxia",
+     "comparator_label": "Hypoxia control (no DMT)",
+     "comparator_type": "untreated"
+    },
+    "measurement": {
+     "endpoint_original": "HIF-1α protein under hypoxia",
+     "endpoint_normalized": "hif1a_protein",
+     "scale_level": "molecular",
+     "assay_or_instrument": "Western blot densitometry",
+     "time_value": 6,
+     "time_unit": "hours",
+     "time_origin": "hypoxia onset",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.05",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "the administration of 50 μM DMT prevented this increase in all cell types (Figures 3A,B )"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived cerebral cortical neurons (Axol)",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "Axol Bioscience iPSC-derived neural progenitors",
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Hypoxia (0.5% O2) assay, human iPSC-derived cortical neurons",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived cerebral cortical neurons",
+     "n": 3,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 50 µM",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 50,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": "added before hypoxia",
+     "comparator_label": "Hypoxia control (no DMT)",
+     "comparator_type": "untreated"
+    },
+    "measurement": {
+     "endpoint_original": "VEGF mRNA under hypoxia",
+     "endpoint_normalized": "vegf_mrna",
+     "scale_level": "molecular",
+     "assay_or_instrument": "qPCR",
+     "time_value": 6,
+     "time_unit": "hours",
+     "time_origin": "hypoxia onset",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.05",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "significantly decreased mRNA expressions of VEGF upon DMT treatment in all cell types under hypoxia"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived cerebral cortical neurons (Axol)",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "Axol Bioscience iPSC-derived neural progenitors",
+     "probes": []
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   },
+   {
+    "experiment": {
+     "label": "Hypoxia (0.5% O2) assay, human iPSC-derived cortical neurons",
+     "design": "in_vitro",
+     "species": "human",
+     "population_or_model": "human iPSC-derived cerebral cortical neurons",
+     "n": 3,
+     "independent_unit": "other"
+    },
+    "arm": {
+     "label": "DMT 50 µM + Sig-1R siRNA",
+     "intervention_original": "N,N-dimethyltryptamine",
+     "intervention_normalized": "DMT",
+     "dose_value": 50,
+     "dose_unit": "µM",
+     "route": "culture medium",
+     "regimen": "added before hypoxia",
+     "comparator_label": "DMT 50 µM + control siRNA",
+     "comparator_type": "active"
+    },
+    "measurement": {
+     "endpoint_original": "HIF-1α protein under hypoxia",
+     "endpoint_normalized": "hif1a_protein",
+     "scale_level": "molecular",
+     "assay_or_instrument": "Western blot densitometry",
+     "time_value": 6,
+     "time_unit": "hours",
+     "time_origin": "hypoxia onset",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "not_reported",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "Sig-1R gene silencing resulted in the ablation of the modulatory capacity of DMT on HIF-1α protein expression"
+     }
+    ],
+    "clinical": null,
+    "preclinical": {
+     "cell_type": "iPSC-derived cerebral cortical neurons (Axol)",
+     "brain_region": null,
+     "culture_age_value": null,
+     "culture_age_unit": null,
+     "animal_age": null,
+     "sex": null,
+     "strain_or_line": "Axol Bioscience iPSC-derived neural progenitors",
+     "probes": [
+      {
+       "agent": "Sig-1R siRNA",
+       "target": "sigma-1 receptor",
+       "probe_type": "genetic_knockdown",
+       "dose_value": null,
+       "dose_unit": null,
+       "effect_on_response": "blocked"
+      }
+     ]
+    },
+    "missing": [
+     {
+      "field": "measurement.value",
+      "reason": "not_reported"
+     }
+    ]
+   }
+  ]
+ }
+}

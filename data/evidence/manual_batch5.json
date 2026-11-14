@@ -1,0 +1,2004 @@
+{
+ "PMC7643046": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Randomized trial of psilocybin-assisted therapy for major depressive disorder, with GRID-HAMD outcomes.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Randomized waiting-list controlled trial",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "adults with major depressive disorder",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Immediate psilocybin treatment",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg/70 kg",
+     "route": "oral",
+     "regimen": "two sessions with psychological support",
+     "comparator_label": "delayed treatment (waiting list)",
+     "comparator_type": "waitlist"
+    },
+    "measurement": {
+     "endpoint_original": "GRID-HAMD depression score",
+     "endpoint_normalized": "gridhamd_score",
+     "scale_level": "clinical",
+     "assay_or_instrument": "GRID-HAMD",
+     "time_value": 5,
+     "time_unit": "weeks",
+     "time_origin": "baseline",
+     "value": 8.0,
+     "value_unit": "points",
+     "control_value": 23.8,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 7.1,
+     "uncertainty_high": null,
+     "statistical_test": "independent samples t-test",
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "In the immediate treatment group, the mean (SD) GRID-HAMD scores were 22.9 (3.6) at baseline, 8.0 (7.1) at week 5, and 8.5 (5.7) at week 8"
+     }
+    ],
+    "clinical": {
+     "scale_name": "GRID-HAMD",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": "no",
+     "follow_up": "week 5",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Randomized waiting-list controlled trial",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "adults with major depressive disorder",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Immediate psilocybin treatment",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg/70 kg",
+     "route": "oral",
+     "regimen": "two sessions with psychological support",
+     "comparator_label": "delayed treatment (waiting list)",
+     "comparator_type": "waitlist"
+    },
+    "measurement": {
+     "endpoint_original": "GRID-HAMD depression score",
+     "endpoint_normalized": "gridhamd_score",
+     "scale_level": "clinical",
+     "assay_or_instrument": "GRID-HAMD",
+     "time_value": 8,
+     "time_unit": "weeks",
+     "time_origin": "baseline",
+     "value": 8.5,
+     "value_unit": "points",
+     "control_value": 23.5,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "SD",
+     "uncertainty_low": 5.7,
+     "uncertainty_high": null,
+     "statistical_test": "independent samples t-test",
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "In the immediate treatment group, the mean (SD) GRID-HAMD scores were 22.9 (3.6) at baseline, 8.0 (7.1) at week 5, and 8.5 (5.7) at week 8"
+     }
+    ],
+    "clinical": {
+     "scale_name": "GRID-HAMD",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": "no",
+     "follow_up": "week 8",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Randomized waiting-list controlled trial",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "adults with major depressive disorder",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Immediate psilocybin treatment",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg/70 kg",
+     "route": "oral",
+     "regimen": "two sessions with psychological support",
+     "comparator_label": "delayed treatment (waiting list)",
+     "comparator_type": "waitlist"
+    },
+    "measurement": {
+     "endpoint_original": "Time by condition interaction on depression",
+     "endpoint_normalized": "gridhamd_interaction",
+     "scale_level": "clinical",
+     "assay_or_instrument": "GRID-HAMD",
+     "time_value": 8,
+     "time_unit": "weeks",
+     "time_origin": "baseline",
+     "value": 0.57,
+     "value_unit": "partial eta squared",
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "CI_other",
+     "uncertainty_low": 0.38,
+     "uncertainty_high": 0.66,
+     "statistical_test": null,
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Results",
+      "label": null,
+      "quote": "A statistically significant time by condition interaction effect on GRID-HAMD was found (η p 2 = 0.57; 90% CI, 0.38-0.66; P < .001)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "GRID-HAMD",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": "no",
+     "follow_up": null,
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   }
+  ]
+ },
+ "PMC5367557": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Crossover trial of high- versus low-dose psilocybin for depression and anxiety in cancer patients.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Randomized double-blind crossover trial",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "cancer patients with depression and/or anxiety",
+     "n": 51,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin high dose (22-30 mg/70 kg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 22,
+     "dose_unit": "mg/70 kg",
+     "route": "oral",
+     "regimen": "high dose, crossover with low dose 5 weeks apart",
+     "comparator_label": "low (placebo-like) dose 1-3 mg/70 kg",
+     "comparator_type": "active"
+    },
+    "measurement": {
+     "endpoint_original": "Clinician- and self-rated depressed mood and anxiety",
+     "endpoint_normalized": "depression_anxiety_ratings",
+     "scale_level": "clinical",
+     "assay_or_instrument": "GRID-HAMD, HAM-A and self-report scales",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "High-dose psilocybin produced large decreases in clinician- and self-rated measures of depressed mood and anxiety, along with increases in quality of life, life meaning, and optimism, and decreases in death anxiety"
+     }
+    ],
+    "clinical": {
+     "scale_name": "GRID-HAMD / HAM-A",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": "yes",
+     "follow_up": null,
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Randomized double-blind crossover trial",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "cancer patients with depression and/or anxiety",
+     "n": 51,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin high dose (22-30 mg/70 kg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 22,
+     "dose_unit": "mg/70 kg",
+     "route": "oral",
+     "regimen": "high dose, crossover with low dose 5 weeks apart",
+     "comparator_label": "low (placebo-like) dose 1-3 mg/70 kg",
+     "comparator_type": "active"
+    },
+    "measurement": {
+     "endpoint_original": "Clinically significant decrease in depressed mood and anxiety at 6 months",
+     "endpoint_normalized": "depression_anxiety_response",
+     "scale_level": "clinical",
+     "assay_or_instrument": "GRID-HAMD, HAM-A",
+     "time_value": 6,
+     "time_unit": "months",
+     "time_origin": "session",
+     "value": 80,
+     "value_unit": "% of participants",
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "At 6-month follow-up, these changes were sustained, with about 80% of participants continuing to show clinically significant decreases in depressed mood and anxiety"
+     }
+    ],
+    "clinical": {
+     "scale_name": "GRID-HAMD / HAM-A",
+     "higher_score_means": "worse",
+     "responder_rate": 0.8,
+     "remission_rate": null,
+     "response_definition": "clinically significant decrease in depressed mood and anxiety",
+     "blinding_integrity_assessed": null,
+     "follow_up": "6 months",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Randomized double-blind crossover trial",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "cancer patients with depression and/or anxiety",
+     "n": 51,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin high dose (22-30 mg/70 kg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 22,
+     "dose_unit": "mg/70 kg",
+     "route": "oral",
+     "regimen": "high dose, crossover with low dose 5 weeks apart",
+     "comparator_label": "low (placebo-like) dose 1-3 mg/70 kg",
+     "comparator_type": "active"
+    },
+    "measurement": {
+     "endpoint_original": "Elevated systolic blood pressure during session",
+     "endpoint_normalized": "elevated_systolic_bp",
+     "scale_level": "clinical",
+     "assay_or_instrument": "blood pressure monitoring",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": 34,
+     "value_unit": "% of participants",
+     "control_value": 17,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Adverse effects",
+      "label": null,
+      "quote": "an episode of elevated systolic blood pressure (>160 mm Hg at one or more time-point) occurred in 34% of participants in the high-dose session and 17% of participants in the low-dose session"
+     }
+    ],
+    "clinical": {
+     "scale_name": null,
+     "higher_score_means": null,
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": "yes",
+     "follow_up": null,
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Randomized double-blind crossover trial",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "cancer patients with depression and/or anxiety",
+     "n": 51,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin high dose (22-30 mg/70 kg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 22,
+     "dose_unit": "mg/70 kg",
+     "route": "oral",
+     "regimen": "high dose, crossover with low dose 5 weeks apart",
+     "comparator_label": "low (placebo-like) dose 1-3 mg/70 kg",
+     "comparator_type": "active"
+    },
+    "measurement": {
+     "endpoint_original": "Nausea or vomiting during session",
+     "endpoint_normalized": "nausea_vomiting",
+     "scale_level": "clinical",
+     "assay_or_instrument": "adverse event reporting",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": 15,
+     "value_unit": "% of participants",
+     "control_value": 0,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Adverse effects",
+      "label": null,
+      "quote": "Nausea or vomiting occurred in 15% of participants in the high-dose session and none in the low-dose session"
+     }
+    ],
+    "clinical": {
+     "scale_name": null,
+     "higher_score_means": null,
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": "yes",
+     "follow_up": null,
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Randomized double-blind crossover trial",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "cancer patients with depression and/or anxiety",
+     "n": 51,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin high dose (22-30 mg/70 kg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 22,
+     "dose_unit": "mg/70 kg",
+     "route": "oral",
+     "regimen": "high dose, crossover with low dose 5 weeks apart",
+     "comparator_label": "low (placebo-like) dose 1-3 mg/70 kg",
+     "comparator_type": "active"
+    },
+    "measurement": {
+     "endpoint_original": "Anxiety episode during session",
+     "endpoint_normalized": "session_anxiety",
+     "scale_level": "clinical",
+     "assay_or_instrument": "monitor ratings",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": 26,
+     "value_unit": "% of participants",
+     "control_value": 15,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Adverse effects",
+      "label": null,
+      "quote": "An episode of anxiety occurred in 26% of participants in the high-dose session and 15% in the low-dose session"
+     }
+    ],
+    "clinical": {
+     "scale_name": null,
+     "higher_score_means": null,
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": "yes",
+     "follow_up": null,
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   }
+  ]
+ },
+ "PMC5813086": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Open-label trial of two psilocybin doses for treatment-resistant depression, followed to 6 months.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Open-label trial",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant major depression",
+     "n": 20,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": "oral",
+     "regimen": "10 mg then 25 mg, 7 days apart",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "QIDS-SR16 depression score",
+     "endpoint_normalized": "qids_sr16_depression_score",
+     "scale_level": "clinical",
+     "assay_or_instrument": "QIDS-SR16",
+     "time_value": 1,
+     "time_unit": "weeks",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 2.2,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "marked reductions in depressive symptoms were observed for the first 5 weeks post-treatment (Cohen’s d = 2.2 at week 1 and 2.3 at week 5, both p < 0.001)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "QIDS-SR16",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": "no",
+     "follow_up": "1 week",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label trial",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant major depression",
+     "n": 20,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": "oral",
+     "regimen": "10 mg then 25 mg, 7 days apart",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "QIDS-SR16 depression score",
+     "endpoint_normalized": "qids_sr16_depression_score",
+     "scale_level": "clinical",
+     "assay_or_instrument": "QIDS-SR16",
+     "time_value": 5,
+     "time_unit": "weeks",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 2.3,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "marked reductions in depressive symptoms were observed for the first 5 weeks post-treatment (Cohen’s d = 2.2 at week 1 and 2.3 at week 5, both p < 0.001); nine and four patients met the criteria for response and remission at week 5"
+     }
+    ],
+    "clinical": {
+     "scale_name": "QIDS-SR16",
+     "higher_score_means": "worse",
+     "responder_rate": 0.45,
+     "remission_rate": 0.2,
+     "response_definition": "response criteria at week 5 (9 of 20 patients)",
+     "blinding_integrity_assessed": "no",
+     "follow_up": "5 weeks",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label trial",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "adults with treatment-resistant major depression",
+     "n": 20,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": "oral",
+     "regimen": "10 mg then 25 mg, 7 days apart",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "QIDS-SR16 depression score",
+     "endpoint_normalized": "qids_sr16_depression_score",
+     "scale_level": "clinical",
+     "assay_or_instrument": "QIDS-SR16",
+     "time_value": 6,
+     "time_unit": "months",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 1.4,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Results remained positive at 3 and 6 months (Cohen’s d = 1.5 and 1.4, respectively, both p < 0.001)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "QIDS-SR16",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": "no",
+     "follow_up": "6 months",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   }
+  ]
+ },
+ "PMC8864328": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Twelve-month follow-up of psilocybin-assisted treatment for major depressive disorder.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Randomized waiting-list controlled trial, 12-month follow-up",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "adults with moderate to severe major depression",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin with psychotherapy",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg/70 kg",
+     "route": "oral",
+     "regimen": "two doses with supportive psychotherapy",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "GRID-HAMD depression score",
+     "endpoint_normalized": "gridhamd_score",
+     "scale_level": "clinical",
+     "assay_or_instrument": "GRID-HAMD",
+     "time_value": 1,
+     "time_unit": "months",
+     "time_origin": "second dose",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 2.3,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Large decreases from baseline in GRID-HAMD scores were observed at 1-, 3-, 6-, and 12-month follow-up (Cohen d = 2.3, 2.0, 2.6, and 2.4, respectively)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "GRID-HAMD",
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": "no",
+     "follow_up": "1 month",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Randomized waiting-list controlled trial, 12-month follow-up",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "adults with moderate to severe major depression",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin with psychotherapy",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg/70 kg",
+     "route": "oral",
+     "regimen": "two doses with supportive psychotherapy",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "GRID-HAMD depression score",
+     "endpoint_normalized": "gridhamd_score",
+     "scale_level": "clinical",
+     "assay_or_instrument": "GRID-HAMD",
+     "time_value": 12,
+     "time_unit": "months",
+     "time_origin": "second dose",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 2.4,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Large decreases from baseline in GRID-HAMD scores were observed at 1-, 3-, 6-, and 12-month follow-up (Cohen d = 2.3, 2.0, 2.6, and 2.4, respectively)"
+     }
+    ],
+    "clinical": {
+     "scale_name": "GRID-HAMD",
+     "higher_score_means": "worse",
+     "responder_rate": 0.75,
+     "remission_rate": 0.58,
+     "response_definition": "at least 50% reduction in GRID-HAMD from baseline",
+     "blinding_integrity_assessed": "no",
+     "follow_up": "12 months",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Randomized waiting-list controlled trial, 12-month follow-up",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "adults with moderate to severe major depression",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin with psychotherapy",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg/70 kg",
+     "route": "oral",
+     "regimen": "two doses with supportive psychotherapy",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Serious adverse events related to psilocybin",
+     "endpoint_normalized": "serious_adverse_events",
+     "scale_level": "clinical",
+     "assay_or_instrument": "GRID-HAMD",
+     "time_value": 12,
+     "time_unit": "months",
+     "time_origin": "second dose",
+     "value": 0,
+     "value_unit": "events",
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "There were no serious adverse events judged to be related to psilocybin in the long-term follow-up period"
+     }
+    ],
+    "clinical": {
+     "scale_name": null,
+     "higher_score_means": null,
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": null,
+     "follow_up": "12 months",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   }
+  ]
+ },
+ "PMC7744693": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Randomized crossover study of psilocybin effects on sleep architecture and EEG slow-wave activity.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Randomized double-blind crossover sleep study",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "healthy volunteers aged 28-53",
+     "n": 20,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (dose not stated in abstract)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "oral",
+     "regimen": "single session",
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "REM sleep latency",
+     "endpoint_normalized": "rem_sleep_latency",
+     "scale_level": "circuit",
+     "assay_or_instrument": "polysomnography",
+     "time_value": 1,
+     "time_unit": "nights",
+     "time_origin": "administration",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "The results revealed prolonged REM sleep latency after psilocybin administration"
+     }
+    ],
+    "clinical": {
+     "scale_name": null,
+     "higher_score_means": null,
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": null,
+     "follow_up": "first night",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   }
+  ]
+ },
+ "PMC7643385": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Placebo-controlled crossover EEG study of psilocybin effects on self-related auditory processing.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Placebo-controlled double-blind crossover",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "healthy adults",
+     "n": 17,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "psilocybin 230 µg/kg",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 230,
+     "dose_unit": "µg/kg",
+     "route": "oral",
+     "regimen": null,
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "Distinctiveness of self- vs other-related event-related potentials",
+     "endpoint_normalized": "erp_self_other_distinctiveness",
+     "scale_level": "circuit",
+     "assay_or_instrument": "EEG event-related potentials",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "altered the late phase of self‐stimuli encoding by abolishing the distinctiveness of self‐ and other‐related electric"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   }
+  ]
+ },
+ "PMC5813058": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Study of emotional face recognition speed before and after psilocybin in treatment-resistant depression.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Open-label trial with non-treated control group",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "patients with treatment-resistant depression",
+     "n": 17,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (two doses)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "oral",
+     "regimen": "two doses with psychological support",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Speed of emotion recognition",
+     "endpoint_normalized": "emotion_recognition_speed",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "dynamic emotional face recognition task",
+     "time_value": 1,
+     "time_unit": "months",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 0.876,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.004",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Emotion recognition was faster at follow-up compared with baseline in patients ( p = .004, d = .876) but not controls ( p = .263, d = .302)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label trial with non-treated control group",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "patients with treatment-resistant depression",
+     "n": 17,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (two doses)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": "oral",
+     "regimen": "two doses with psychological support",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Group by time interaction on recognition speed",
+     "endpoint_normalized": "emotion_recognition_interaction",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "dynamic emotional face recognition task",
+     "time_value": 1,
+     "time_unit": "months",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "0.035",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "We found evidence for a group × time interaction on speed of emotion recognition ( p = .035)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   }
+  ]
+ },
+ "PMC8032715": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Placebo-controlled study of acute and persisting psilocybin effects on creative thinking.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Double-blind placebo-controlled parallel group",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "healthy participants",
+     "n": null,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "psilocybin 0.17 mg/kg",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.17,
+     "dose_unit": "mg/kg",
+     "route": "oral",
+     "regimen": null,
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "Ratings of spontaneous creative insights",
+     "endpoint_normalized": "spontaneous_creative_insight",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "creativity tasks and ratings",
+     "time_value": 1,
+     "time_unit": "days",
+     "time_origin": "administration",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Acutely, psilocybin increased ratings of (spontaneous) creative insights, while decreasing (deliberate) task-based creativity"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Double-blind placebo-controlled parallel group",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "healthy participants",
+     "n": null,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "psilocybin 0.17 mg/kg",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.17,
+     "dose_unit": "mg/kg",
+     "route": "oral",
+     "regimen": null,
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "Task-based (deliberate) creativity",
+     "endpoint_normalized": "deliberate_creativity",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "creativity tasks and ratings",
+     "time_value": 1,
+     "time_unit": "days",
+     "time_origin": "administration",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Acutely, psilocybin increased ratings of (spontaneous) creative insights, while decreasing (deliberate) task-based creativity"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Double-blind placebo-controlled parallel group",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "healthy participants",
+     "n": null,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "psilocybin 0.17 mg/kg",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.17,
+     "dose_unit": "mg/kg",
+     "route": "oral",
+     "regimen": null,
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "Number of novel ideas",
+     "endpoint_normalized": "novel_ideas",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "creativity tasks and ratings",
+     "time_value": 7,
+     "time_unit": "days",
+     "time_origin": "administration",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Seven days after psilocybin, number of novel ideas increased"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   }
+  ]
+ },
+ "PMC5581487": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Placebo-controlled study of acute psilocybin effects on empathy and moral decision-making.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Placebo-controlled study in healthy subjects",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "healthy adults",
+     "n": 32,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "psilocybin 0.215 mg/kg",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.215,
+     "dose_unit": "mg/kg",
+     "route": "oral",
+     "regimen": null,
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "Emotional empathy",
+     "endpoint_normalized": "emotional_empathy",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "multifaceted empathy test",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Psilocybin significantly increased emotional, but not cognitive empathy compared with placebo"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Placebo-controlled study in healthy subjects",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "healthy adults",
+     "n": 32,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "psilocybin 0.215 mg/kg",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.215,
+     "dose_unit": "mg/kg",
+     "route": "oral",
+     "regimen": null,
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "Cognitive empathy",
+     "endpoint_normalized": "cognitive_empathy",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "multifaceted empathy test",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Psilocybin significantly increased emotional, but not cognitive empathy compared with placebo"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Placebo-controlled study in healthy subjects",
+     "design": "randomized_controlled_trial",
+     "species": "human",
+     "population_or_model": "healthy adults",
+     "n": 24,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "psilocybin 0.215 mg/kg",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 0.215,
+     "dose_unit": "mg/kg",
+     "route": "oral",
+     "regimen": null,
+     "comparator_label": "placebo",
+     "comparator_type": "placebo"
+    },
+    "measurement": {
+     "endpoint_original": "Moral decision-making",
+     "endpoint_normalized": "moral_decision_making",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "moral dilemma task",
+     "time_value": null,
+     "time_unit": null,
+     "time_origin": null,
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "In contrast, moral decision-making remained unaffected by psilocybin"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   }
+  ]
+ },
+ "PMC6220878": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Open-label study of personality change measured by NEO-PI-R after psilocybin therapy for depression.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Open-label trial",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "patients with treatment-resistant depression",
+     "n": 20,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": "oral",
+     "regimen": "10 mg then 25 mg, one week apart",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Neuroticism score",
+     "endpoint_normalized": "neuroticism",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "NEO-PI-R",
+     "time_value": 3,
+     "time_unit": "months",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Neuroticism scores significantly decreased while Extraversion increased following psilocybin therapy"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label trial",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "patients with treatment-resistant depression",
+     "n": 20,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": "oral",
+     "regimen": "10 mg then 25 mg, one week apart",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Extraversion score",
+     "endpoint_normalized": "extraversion",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "NEO-PI-R",
+     "time_value": 3,
+     "time_unit": "months",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Neuroticism scores significantly decreased while Extraversion increased following psilocybin therapy"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label trial",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "patients with treatment-resistant depression",
+     "n": 20,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": "oral",
+     "regimen": "10 mg then 25 mg, one week apart",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Openness score",
+     "endpoint_normalized": "openness",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "NEO-PI-R",
+     "time_value": 3,
+     "time_unit": "months",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Openness scores also significantly increased following psilocybin, whereas Conscientiousness showed trend‐level increases, and Agreeableness did not change"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Open-label trial",
+     "design": "open_label_trial",
+     "species": "human",
+     "population_or_model": "patients with treatment-resistant depression",
+     "n": 20,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Psilocybin (10 mg then 25 mg)",
+     "intervention_original": "psilocybin",
+     "intervention_normalized": "Psilocybin",
+     "dose_value": 25,
+     "dose_unit": "mg",
+     "route": "oral",
+     "regimen": "10 mg then 25 mg, one week apart",
+     "comparator_label": "baseline",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Agreeableness score",
+     "endpoint_normalized": "agreeableness",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "NEO-PI-R",
+     "time_value": 3,
+     "time_unit": "months",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "no_change",
+     "effect_size_type": null,
+     "effect_size_value": null,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": null,
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "Openness scores also significantly increased following psilocybin, whereas Conscientiousness showed trend‐level increases, and Agreeableness did not change"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   }
+  ]
+ },
+ "PMC7359647": {
+  "reports_measured_outcomes": true,
+  "screening_reason": "Retrospective survey of veterans reporting symptoms before and after a combined ibogaine and 5-MeO-DMT program.",
+  "measurements": [
+   {
+    "experiment": {
+     "label": "Retrospective survey of a psychedelic program",
+     "design": "survey",
+     "species": "human",
+     "population_or_model": "US Special Operations Forces veterans",
+     "n": 51,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Ibogaine + 5-MeO-DMT program",
+     "intervention_original": "ibogaine and 5-MeO-DMT",
+     "intervention_normalized": "Ibogaine + 5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": null,
+     "regimen": "combined ibogaine and 5-MeO-DMT program",
+     "comparator_label": "retrospective report of the 30 days before treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Suicidal ideation (retrospective report)",
+     "endpoint_normalized": "suicidal_ideation",
+     "scale_level": "clinical",
+     "assay_or_instrument": "retrospective self-report",
+     "time_value": 30,
+     "time_unit": "days",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": -1.9,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "significant and very large reductions in retrospective report of suicidal ideation (p < .001; d = −1.9)"
+     }
+    ],
+    "clinical": {
+     "scale_name": null,
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": null,
+     "follow_up": "30 days after",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Retrospective survey of a psychedelic program",
+     "design": "survey",
+     "species": "human",
+     "population_or_model": "US Special Operations Forces veterans",
+     "n": 51,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Ibogaine + 5-MeO-DMT program",
+     "intervention_original": "ibogaine and 5-MeO-DMT",
+     "intervention_normalized": "Ibogaine + 5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": null,
+     "regimen": "combined ibogaine and 5-MeO-DMT program",
+     "comparator_label": "retrospective report of the 30 days before treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "PTSD symptoms (retrospective report)",
+     "endpoint_normalized": "ptsd_symptoms",
+     "scale_level": "clinical",
+     "assay_or_instrument": "retrospective self-report",
+     "time_value": 30,
+     "time_unit": "days",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": -3.6,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "symptoms of posttraumatic stress disorder (p < .001; d = −3.6)"
+     }
+    ],
+    "clinical": {
+     "scale_name": null,
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": null,
+     "follow_up": "30 days after",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Retrospective survey of a psychedelic program",
+     "design": "survey",
+     "species": "human",
+     "population_or_model": "US Special Operations Forces veterans",
+     "n": 51,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Ibogaine + 5-MeO-DMT program",
+     "intervention_original": "ibogaine and 5-MeO-DMT",
+     "intervention_normalized": "Ibogaine + 5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": null,
+     "regimen": "combined ibogaine and 5-MeO-DMT program",
+     "comparator_label": "retrospective report of the 30 days before treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Depression symptoms (retrospective report)",
+     "endpoint_normalized": "depression_symptoms",
+     "scale_level": "clinical",
+     "assay_or_instrument": "retrospective self-report",
+     "time_value": 30,
+     "time_unit": "days",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": -3.7,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "depression (p < .001; d = −3.7)"
+     }
+    ],
+    "clinical": {
+     "scale_name": null,
+     "higher_score_means": "worse",
+     "responder_rate": null,
+     "remission_rate": null,
+     "response_definition": null,
+     "blinding_integrity_assessed": null,
+     "follow_up": "30 days after",
+     "adverse_events": []
+    },
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Retrospective survey of a psychedelic program",
+     "design": "survey",
+     "species": "human",
+     "population_or_model": "US Special Operations Forces veterans",
+     "n": 51,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Ibogaine + 5-MeO-DMT program",
+     "intervention_original": "ibogaine and 5-MeO-DMT",
+     "intervention_normalized": "Ibogaine + 5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": null,
+     "regimen": "combined ibogaine and 5-MeO-DMT program",
+     "comparator_label": "retrospective report of the 30 days before treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Cognitive impairment (retrospective report)",
+     "endpoint_normalized": "cognitive_impairment",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "retrospective self-report",
+     "time_value": 30,
+     "time_unit": "days",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "decrease",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": -2.8,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "cognitive impairment (p < .001; d = −2.8)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   },
+   {
+    "experiment": {
+     "label": "Retrospective survey of a psychedelic program",
+     "design": "survey",
+     "species": "human",
+     "population_or_model": "US Special Operations Forces veterans",
+     "n": 51,
+     "independent_unit": "participant"
+    },
+    "arm": {
+     "label": "Ibogaine + 5-MeO-DMT program",
+     "intervention_original": "ibogaine and 5-MeO-DMT",
+     "intervention_normalized": "Ibogaine + 5-MeO-DMT",
+     "dose_value": null,
+     "dose_unit": null,
+     "route": null,
+     "regimen": "combined ibogaine and 5-MeO-DMT program",
+     "comparator_label": "retrospective report of the 30 days before treatment",
+     "comparator_type": "baseline_within_subject"
+    },
+    "measurement": {
+     "endpoint_original": "Psychological flexibility (retrospective report)",
+     "endpoint_normalized": "psychological_flexibility",
+     "scale_level": "behavioral",
+     "assay_or_instrument": "retrospective self-report",
+     "time_value": 30,
+     "time_unit": "days",
+     "time_origin": "treatment",
+     "value": null,
+     "value_unit": null,
+     "control_value": null,
+     "effect_direction": "increase",
+     "effect_size_type": "standardized_mean_difference",
+     "effect_size_value": 2.9,
+     "uncertainty_type": "none_reported",
+     "uncertainty_low": null,
+     "uncertainty_high": null,
+     "statistical_test": null,
+     "p_value": "<0.001",
+     "value_origin": "author_reported"
+    },
+    "anchors": [
+     {
+      "location": "text",
+      "section": "Abstract",
+      "label": null,
+      "quote": "a significant and large increase in retrospective report of psychological flexibility (p < .001; d = 2.9)"
+     }
+    ],
+    "clinical": null,
+    "preclinical": null,
+    "missing": []
+   }
+  ]
+ },
+ "PMC4828992": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Narrative review of DMT in neuroinflammation and neuroprotection; no new measurements.",
+  "measurements": []
+ },
+ "PMC3800812": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Theoretical review of serotonergic hyperactivity and synesthesia; no new measurements.",
+  "measurements": []
+ },
+ "PMC5776504": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Secondary analysis of acute experience ratings predicting outcomes in an already-extracted trial (PMC5813086); no new measured outcomes.",
+  "measurements": []
+ },
+ "PMC6194345": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "Task-based analysis of pessimism bias in an already-extracted trial cohort; reports prediction-task indices rather than new intervention outcomes.",
+  "measurements": []
+ },
+ "PMC4589238": {
+  "reports_measured_outcomes": false,
+  "screening_reason": "EEG study of ayahuasca (a DMT-containing brew) reporting spectral power changes; the study substance is ayahuasca, not isolated DMT, so it is kept as contextual evidence only.",
+  "measurements": []
+ }
+}
